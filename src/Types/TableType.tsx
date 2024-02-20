@@ -163,77 +163,30 @@ export interface CustomCellInterFaces {
   color: string;
 }
 
+export interface Opportunity {
+  package_name: string;
+  package_remaining: number;
+  package_target: number;
+  package_unit: number;
+  contribution_no: number;
+  _id: string;
+}
+
 export interface User {
-  phone: number;
-  cnic: number;
-  name: string;
-  position: string;
-  role: string;
-  salary: string;
-  office: string;
-  cv: JSX.Element;
-  email: string;
-  color: string;
-  badge: string;
-  id: number;
-}
-
-export interface Posts {
-  postId: number;
-  title: string;
-  vehicleCondition: string;
-  price: number;
-  cityName: string;
-  makeName: string;
-  modelName: string;
-  yearName: number;
-}
-
-export interface Inspection {
-  inspection_id: number;
-  make_name: string;
-  model_name: string;
-  city_name: string;
-  address: string;
-  name: string;
-  phone: number;
-  inspection_slot: number;
-}
-
-export interface NewCarList {
-  newcarpost_id: number;
-  make: string;
-  model_name: string;
-  year: string;
-  newcarpost_price: number;
-  newcarpost_cover: string;
-  modelName: string;
-  newcarpost_token: string;
-  newcarpost_variants: string;
-}
-
-export interface Payment {
-  order_id: number;
-  payment_method: string;
-  security_deposit: string;
-  name: string;
-}
-
-export interface Refund {
-  order_id: number;
-  payment_method: string;
-  security_deposit: string;
-  name: string;
-  refund_date: string;
-}
-
-export interface CarImport {
-  id: number;
-  city: string;
-  make: string;
-  model: string;
-  model_name: string;
-  year: number;
+  user_phone: number;
+  user_cnic: number;
+  wallet_balance: number;
+  commercial_registration_no: number;
+  user_name: string;
+  user_position: string;
+  role_name: string;
+  user_salary: string;
+  enrollment_type: string;
+  user_cv: JSX.Element;
+  user_email: string;
+  user_color: string;
+  user_badge: string;
+  id: string;
 }
 
 export interface AjaxSourcedColumnsInterface {

@@ -46,8 +46,9 @@ export const LogoWrapper = () => {
         <Link href={`/${i18LangStatus}/dashboard/default_dashboard`}>
           <img
             className="img-fluid"
-            src={`${ImagePath}/logo/fame-wheels-icon.png`}
+            src={`${ImagePath}/logo/favicon.png`}
             alt=""
+            width={30}
           />
         </Link>
       </div>

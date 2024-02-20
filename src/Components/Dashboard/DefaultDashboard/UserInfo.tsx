@@ -14,9 +14,9 @@ const UserInfo = () => {
       <Card className="profile-greeting p-0">
         <CardBody>
           <div className="img-overlay">
-            <h1 className="mt-0">Good day, {user?.name}</h1>
+            <h1 className="mt-0">Good day, {user?.user_name}</h1>
             <p>
-              Welcome to the FameWheels family! We are delighted that you have
+              Welcome to the Sondoqi family! We are delighted that you have
               visited our dashboard.
             </p>
             <Link className="btn" href={`/dashboard/default_dashboard`}>

@@ -17,22 +17,44 @@ export const Header = () => {
     const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
     try {
-      const token = localStorage.getItem("authToken");
+      const Loginresponse = await axios.get(
+        `${BASE_URL}/users/getLoginStatus`,
 
-      const response = await axios.get(`${BASE_URL}/getUser`, {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      });
+        {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          withCredentials: true,
+        }
+      );
 
-      dispatch(setUser(response?.data));
-    } catch (error: any) {
-      console.error("Failed to get User", error);
+      if (Loginresponse?.data === true) {
+        try {
+          const token = localStorage.getItem("token");
+
+          const response = await axios.get(`${BASE_URL}/users/getUser`, {
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            withCredentials: true,
+          });
+
+          dispatch(setUser(response?.data?.user));
+        } catch (error: any) {
+          console.error("Failed to get User", error);
+        }
+      }
+    } catch (err) {
+      console.log(err);
     }
   };
 
   useEffect(() => {
-    if (user?.name === "" && user?.email === "" && user?.role === "") {
+    if (
+      user?.user_name === "" &&
+      user?.user_email === "" &&
+      user?.role_name === ""
+    ) {
       formSubmitHandle();
     }
 

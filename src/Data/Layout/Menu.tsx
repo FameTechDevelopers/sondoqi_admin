@@ -18,26 +18,26 @@ export const MenuList: MenuItem[] | undefined = [
   },
 
   {
-    title: "Vehicles",
+    title: "User",
     lanClass: "lan-8",
     menucontent: "Dashboards,Widgets",
     Items: [
       {
-        title: "New Vehicles",
+        title: "User Management",
         id: 7,
-        icon: "widget",
+        icon: "user",
         type: "sub",
         lanClass: "lan-8",
         active: false,
         children: [
           {
-            path: "/new_car/carpost",
-            title: "Ad New Vehicles",
+            path: "/user/add_user",
+            title: "Add New User",
             type: "link",
           },
           {
-            path: "/new_car/carpostlist",
-            title: "New Vehicles List",
+            path: "/user/user_list",
+            title: "Users List",
             type: "link",
           },
         ],
@@ -45,11 +45,31 @@ export const MenuList: MenuItem[] | undefined = [
     ],
   },
 
-
-  
-
-
-
-
-
+  {
+    title: "Opportunities",
+    lanClass: "lan-8",
+    menucontent: "Dashboards,Widgets",
+    Items: [
+      {
+        title: "opportunities Manag..",
+        id: 7,
+        icon: "home",
+        type: "sub",
+        lanClass: "lan-8",
+        active: false,
+        children: [
+          {
+            path: "/opportunities/create_opportunities",
+            title: "Add New Opportunity",
+            type: "link",
+          },
+          {
+            path: "/opportunities/opportunities_list",
+            title: "Opportunities List",
+            type: "link",
+          },
+        ],
+      },
+    ],
+  },
 ];

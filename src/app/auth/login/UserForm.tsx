@@ -30,21 +30,24 @@ export const UserForm = () => {
         user_email: email,
         user_password: password,
       };
-      const response = await axios.post(`${BASE_URL}/login`, params, {
+      const response = await axios.post(`${BASE_URL}/users/login`, params, {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
         withCredentials: true,
       });
 
-      const token = await response?.data?.token;
-      localStorage.setItem("authToken", response?.data?.token);
-      Cookies.set("m_token", JSON.stringify(true), {
+      localStorage.setItem("token", response?.data?.token);
+
+      Cookies.set("nAwlyWwf", response?.data?.token, {
         path: "/",
         expires: new Date(Date.now() + 1000 * 86400),
         secure: false,
-        // sameSite: true,
+        // sameSite: "strict",
       });
+
+      Cookies.set("m_token", JSON.stringify(true));
+
       router.push(`/en/dashboard/default_dashboard`);
 
       if (response?.data?.token) {
