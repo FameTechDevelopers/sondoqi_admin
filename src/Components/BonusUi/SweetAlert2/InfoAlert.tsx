@@ -6,21 +6,32 @@ import { InfoSweetAlert } from "@/Data/BonusUi/SweetAlert";
 
 const InfoAlert = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ text: "Please Click on this button it's big surprise for you.",confirmButtonColor:"#7A70BA" }).then((result) => {
+    SweetAlert.fire({
+      text: "Please Click on this button it's big surprise for you.",
+      confirmButtonColor: "#1194a8",
+    }).then((result) => {
       if (result.isConfirmed) {
-        SweetAlert.fire({ text: "Thank you for visit Mofi theme : true" ,confirmButtonColor:"#7A70BA"});
+        SweetAlert.fire({
+          text: "Thank you for visit Sondoqi theme : true",
+          confirmButtonColor: "#1194a8",
+        });
       } else {
-        SweetAlert.fire({ text: "Thank you for visit Mofi theme : null",confirmButtonColor:"#7A70BA" });
+        SweetAlert.fire({
+          text: "Thank you for visit Sondoqi theme : null",
+          confirmButtonColor: "#1194a8",
+        });
       }
     });
   };
-  
+
   return (
     <Col xxl="3" lg="4" sm="6" xs="12">
       <Card className="height-equal">
         <CommonCardHeader title={InfoAlerts} span={InfoSweetAlert} />
         <CardBody className="btn-showcase">
-          <Button color="info" className="sweet-4" onClick={displayAlert}>{Informational}</Button>
+          <Button color="info" className="sweet-4" onClick={displayAlert}>
+            {Informational}
+          </Button>
         </CardBody>
       </Card>
     </Col>

@@ -6,15 +6,27 @@ import { SuccessMeassageData } from "@/Data/BonusUi/SweetAlert";
 
 const SuccessMessage = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ icon: "success", title: "Good job!", text: "You clicked the button!", confirmButtonColor:"#7A70BA" });
+    SweetAlert.fire({
+      icon: "success",
+      title: "Good job!",
+      text: "You clicked the button!",
+      confirmButtonColor: "#1194a8",
+    });
   };
-  
+
   return (
     <Col xxl="3" lg="4" sm="6" xs="12">
       <Card className="height-equal">
         <CommonCardHeader title={SuccessMessages} span={SuccessMeassageData} />
         <CardBody className="btn-showcase">
-          <Button color="success" className="sweet-8" type="button" onClick={displayAlert}>{LoginSuccessfully}</Button>
+          <Button
+            color="success"
+            className="sweet-8"
+            type="button"
+            onClick={displayAlert}
+          >
+            {LoginSuccessfully}
+          </Button>
         </CardBody>
       </Card>
     </Col>

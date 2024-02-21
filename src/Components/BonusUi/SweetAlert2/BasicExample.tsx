@@ -7,7 +7,10 @@ import { BasicExamples, ClickIt } from "@/Constant";
 
 const BasicExample = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ title: "Welcome! to the Mofi theme",confirmButtonColor:"#7A70BA" });
+    SweetAlert.fire({
+      title: "Welcome! to the Sondoqi theme",
+      confirmButtonColor: "#1194a8",
+    });
   };
 
   return (
@@ -15,7 +18,9 @@ const BasicExample = () => {
       <Card className="height-equal">
         <CommonCardHeader title={BasicExamples} span={BasicSweetAlert} />
         <CardBody className="btn-showcase">
-          <Button color="primary" className="sweet-1" onClick={displayAlert}>{ClickIt}</Button>
+          <Button color="primary" className="sweet-1" onClick={displayAlert}>
+            {ClickIt}
+          </Button>
         </CardBody>
       </Card>
     </Col>

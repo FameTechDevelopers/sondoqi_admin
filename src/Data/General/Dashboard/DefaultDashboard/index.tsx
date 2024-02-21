@@ -23,7 +23,7 @@ export const GrowthChart: ApexOptions = {
       top: 5,
       left: 0,
       blur: 4,
-      color: "#7A70BA",
+      color: "#1194a8",
       opacity: 0.22,
     },
   },
@@ -51,7 +51,22 @@ export const GrowthChart: ApexOptions = {
   },
   xaxis: {
     type: "category",
-    categories: ["0", "", "10k", "", "20k", "", "30k", "", "40k", "", "50k", "", "60k", ""],
+    categories: [
+      "0",
+      "",
+      "10k",
+      "",
+      "20k",
+      "",
+      "30k",
+      "",
+      "40k",
+      "",
+      "50k",
+      "",
+      "60k",
+      "",
+    ],
     tickAmount: 10,
     labels: {
       style: {
@@ -82,7 +97,7 @@ export const GrowthChart: ApexOptions = {
       colorStops: [
         {
           offset: 0,
-          color: "#7A70BA",
+          color: "#1194a8",
           opacity: 1,
         },
         {
@@ -158,7 +173,7 @@ export const ShiftsOptionChart: ApexOptions = {
       },
     },
   },
-  colors: ["#48A3D7", "#D77748", "#C95E9E", "#7A70BA"],
+  colors: ["#48A3D7", "#D77748", "#C95E9E", "#1194a8"],
 };
 
 export const ShiftsOverviewData = [
@@ -391,7 +406,7 @@ export const CustomerChartData: ApexOptions = {
         chart: {
           height: 340,
         },
-      }
+      },
     },
     {
       breakpoint: 1400,
@@ -575,12 +590,18 @@ export const SalesChartData: ApexOptions = {
     {
       name: "TEAM A",
       type: "area",
-      data: [20, 50, 60, 180, 90, 340, 120, 250, 190, 100, 180, 380, 190, 220, 100, 90, 140, 70, 130, 90, 100, 50, 10, 0],
+      data: [
+        20, 50, 60, 180, 90, 340, 120, 250, 190, 100, 180, 380, 190, 220, 100,
+        90, 140, 70, 130, 90, 100, 50, 10, 0,
+      ],
     },
     {
       name: "TEAM B",
       type: "line",
-      data: [20, 70, 30, 100, 120, 220, 250, 100, 200, 300, 330, 270, 300, 200, 180, 220, 130, 300, 220, 180, 40, 70, 10, 0],
+      data: [
+        20, 70, 30, 100, 120, 220, 250, 100, 200, 300, 330, 270, 300, 200, 180,
+        220, 130, 300, 220, 180, 40, 70, 10, 0,
+      ],
     },
   ],
   chart: {
@@ -595,7 +616,7 @@ export const SalesChartData: ApexOptions = {
       top: 4,
       left: 1,
       blur: 8,
-      color: '#7A70BA',
+      color: "#1194a8",
       opacity: 0.4,
     },
   },
@@ -614,7 +635,31 @@ export const SalesChartData: ApexOptions = {
     opacity: [0, 1],
   },
 
-  labels: ["Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"],
+  labels: [
+    "Jan",
+    "",
+    "Feb",
+    "",
+    "Mar",
+    "",
+    "Apr",
+    "",
+    "May",
+    "",
+    "Jun",
+    "",
+    "Jul",
+    "",
+    "Aug",
+    "",
+    "Sep",
+    "",
+    "Oct",
+    "",
+    "Nov",
+    "",
+    "Dec",
+  ],
   markers: {
     size: [3, 0],
     colors: ["#3D434A"],
@@ -656,7 +701,7 @@ export const SalesChartData: ApexOptions = {
         x: 550,
         strokeDashArray: 5,
         borderWidth: 3,
-        borderColor: "#7a70ba69",
+        borderColor: "#1194a869",
       },
     ],
     points: [
@@ -686,7 +731,7 @@ export const SalesChartData: ApexOptions = {
   legend: {
     show: false,
   },
-  colors: ["#7A70BA", "#8D8D8D"],
+  colors: ["#1194a8", "#8D8D8D"],
   xaxis: {
     labels: {
       style: {

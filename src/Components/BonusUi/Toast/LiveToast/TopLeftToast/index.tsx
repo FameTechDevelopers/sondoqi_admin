@@ -12,17 +12,24 @@ const TopLeftToast = () => {
   };
   return (
     <>
-      <Button color="warning" onClick={toggle}>{TopLeftToasts}</Button>
+      <Button color="warning" onClick={toggle}>
+        {TopLeftToasts}
+      </Button>
       <div className="toast-container position-fixed start-0 top-0 p-3 toast-index toast-rtl">
         <Toast fade isOpen={open}>
           <div className="toast-header toast-img">
-            <img className="rounded me-2" src={`${ImagePath}/other-images/profile.png`} alt="profile" />
-            <strong className="me-auto">Mofi theme</strong>
+            <img
+              className="rounded me-2"
+              src={`${ImagePath}/other-images/profile.png`}
+              alt="profile"
+            />
+            <strong className="me-auto">Sondoqi theme</strong>
             <small className="d-sm-block d-none">10 min ago</small>
             <Button close onClick={() => setOpen(false)}></Button>
           </div>
           <ToastBody className="toast-dark">
-            <strong className="txt-success">Well done!</strong> You successfully read this important message.
+            <strong className="txt-success">Well done!</strong> You successfully
+            read this important message.
           </ToastBody>
         </Toast>
       </div>

@@ -34,19 +34,19 @@ export const NotificationData = [
 export const BookMarkData = [
   {
     icon: "form",
-    path:"/forms/form_controls/validation_form",
+    path: "/forms/form_controls/validation_form",
     title: "Form",
     color: "primary",
   },
   {
     icon: "user",
-    path:"/users/user_profile",
+    path: "/users/user_profile",
     title: "Profile",
     color: "secondary",
   },
   {
     icon: "table",
-    path:"/table/reactstrap_table/basic_table",
+    path: "/table/reactstrap_table/basic_table",
     title: "Tables",
     color: "warning",
   },
@@ -79,28 +79,31 @@ export const MessageData = [
   },
 ];
 
-export const cartDetailsList = ["Furniture Chair for Home", "Furniture Table for Office"];
+export const cartDetailsList = [
+  "Furniture Chair for Home",
+  "Furniture Table for Office",
+];
 
 export const UserProfileData = [
   {
     icon: <Users />,
     title: "Account",
-    link:"chat/private_chat",
+    link: "chat/private_chat",
   },
   {
     icon: <Mail />,
     title: "Inbox",
-    link:"app/letter_box",
+    link: "app/letter_box",
   },
   {
     icon: <FileText />,
     title: "Taskboard",
-    link:"app/task",
+    link: "app/task",
   },
   {
     icon: <Settings />,
     title: "Settings",
-    link:"users/edit_profile",
+    link: "users/edit_profile",
   },
 ];
 
@@ -110,57 +113,33 @@ export const LanguagesData = [
     logo: "flag-icon flag-icon-us",
     language: "English",
   },
-  {
-    data: "es",
-    logo: "flag-icon flag-icon-is",
-    language: "Spanish",
-  },
-  {
-    data: "pt",
-    logo: "flag-icon flag-icon-uy",
-    language: "Portuegse",
-  },
-  {
-    data: "fr",
-    logo: "flag-icon flag-icon-nz",
-    language: "French",
-  },
+
   {
     data: "ae",
     logo: "flag-icon flag-icon-ae",
     language: "لعربية",
   },
-  {
-    data: "du",
-    logo: "flag-icon flag-icon-de",
-    language: "Deutsch",
-  },
-  {
-    data: "cn",
-    logo: "flag-icon flag-icon-cn",
-    language: "简体中文",
-  },
 ];
 
 export const NavLinkList = [
   {
-      path: 'https://support.pixelstrap.com/',
-      image: 'support.png',
-      name: 'Support'
+    path: "https://support.pixelstrap.com/",
+    image: "support.png",
+    name: "Support",
   },
   {
-      path: 'https://docs.pixelstrap.net/next/mofi/document/',
-      image: 'setting.png',
-      name: 'Document'
+    path: "https://docs.pixelstrap.net/next/mofi/document/",
+    image: "setting.png",
+    name: "Document",
   },
   {
-      path: 'https://landing.pixelstrap.net/next/mofi/template/landing-page.html',
-      image: 'features.png',
-      name: 'Check Features'
+    path: "https://landing.pixelstrap.net/next/mofi/template/landing-page.html",
+    image: "features.png",
+    name: "Check Features",
   },
   {
-      path: 'https://themeforest.net/user/pixelstrap/portfolio',
-      image: 'document.png',
-      name: 'Buy Now'
-  }
-]
+    path: "https://themeforest.net/user/pixelstrap/portfolio",
+    image: "document.png",
+    name: "Buy Now",
+  },
+];

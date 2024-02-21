@@ -6,7 +6,13 @@ import { AutoCloseData } from "@/Data/BonusUi/SweetAlert";
 
 const AutoCloseTimer = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ timer: 3000, showConfirmButton: false, title: "Auto close alert!", text: "just a wait! I will close in 3 second!", confirmButtonColor: "#7A70BA" });
+    SweetAlert.fire({
+      timer: 3000,
+      showConfirmButton: false,
+      title: "Auto close alert!",
+      text: "just a wait! I will close in 3 second!",
+      confirmButtonColor: "#1194a8",
+    });
   };
 
   return (
@@ -14,7 +20,9 @@ const AutoCloseTimer = () => {
       <Card className="height-equal">
         <CommonCardHeader title={WarningModes} span={AutoCloseData} />
         <CardBody className="btn-showcase">
-          <Button color="primary" className="sweet-14" onClick={displayAlert}>{Timer}</Button>
+          <Button color="primary" className="sweet-14" onClick={displayAlert}>
+            {Timer}
+          </Button>
         </CardBody>
       </Card>
     </Col>

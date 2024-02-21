@@ -6,7 +6,7 @@ export const StarColorTwo = "#D77748";
 
 //Layout
 export const Loading: string = "Loading...";
-export const SearchMofi: string = "Search Mofi ..";
+export const SearchMofi: string = "Search Sondoqi ..";
 export const NotiFications: string = "NotiFications";
 export const NewDailyOfferAdded: string = "New daily offer added";
 export const CheckAll: string = "Check all";
@@ -19,7 +19,7 @@ export const OrderTotal: string = "Order Total";
 export const GoToYourCart: string = "Go to your cart";
 export const Checkout: string = "Checkout";
 export const Pinned: string = "Pinned";
-export const ErrorMessage = 'Ops!! There are no result found.';
+export const ErrorMessage = "Ops!! There are no result found.";
 
 //Ui Kits- Typography
 export const Headings: string = "Headings";
@@ -37,11 +37,15 @@ export const DisplayHeadings: string = "Display headings";
 export const InlineTextElements: string = "Inline text elements";
 export const Mark: string = "You can use the mark tag to";
 export const Highlight: string = "highlight";
-export const Del: string = "This line of text is meant to be treated as deleted text.";
-export const Stext: string = "This line of text is meant to be treated as no longer accurate.";
-export const InstText: string = "This line of text is meant to be treated as an addition to the document.";
+export const Del: string =
+  "This line of text is meant to be treated as deleted text.";
+export const Stext: string =
+  "This line of text is meant to be treated as no longer accurate.";
+export const InstText: string =
+  "This line of text is meant to be treated as an addition to the document.";
 export const Utext: string = "This line of text will render as underlined";
-export const SmallText: string = "This line of text is meant to be treated as fine print.";
+export const SmallText: string =
+  "This line of text is meant to be treated as fine print.";
 export const StrongText: string = "This line rendered as bold text.";
 export const EmTeaxt: string = "This line rendered as italicized text.";
 export const TextColor: string = "Text Color";
@@ -83,7 +87,8 @@ export const FontSizes: string = "Font Sizes";
 export const GridOptions: string = "Grid options";
 export const GridBehavior: string = "Grid behavior";
 export const HorizontalAllTimes: string = "Horizontal at all times";
-export const CollapsedBreakpoints: string = "Collapsed to start, horizontal above breakpoints";
+export const CollapsedBreakpoints: string =
+  "Collapsed to start, horizontal above breakpoints";
 export const MaxContainerWidth: string = "Max container width";
 export const ClassPrefix: string = "Class prefix";
 export const GridForColumn: string = "Grid For Column";
@@ -91,9 +96,11 @@ export const VerticalAlignment: string = "Vertical Alignment";
 export const Class: string = " Class";
 export const ValueOfClass: string = "Value of the class";
 export const VerticalAlignmentClass: string = ".align-items-*";
-export const VerticalAlignmentValueClass: string = " start / center / end / baseline / stretch";
+export const VerticalAlignmentValueClass: string =
+  " start / center / end / baseline / stretch";
 export const HorizontalAlignment: string = "Horizontal Alignment";
-export const HorizontalAlignmentValueClass: string = "start / center / end / around / between";
+export const HorizontalAlignmentValueClass: string =
+  "start / center / end / around / between";
 export const HorizontalAlignmentClass: string = ".justify-content-*";
 export const Nesting: string = "Nesting";
 export const Order: string = "Order";
@@ -105,7 +112,8 @@ export const OffsetValueClass: string = " 1 / 2 / ... / 11 / 12";
 
 //Ui Kits- Tag And Pills
 export const TagAndPills: string = "Tag & Pills";
-export const BadgesContextualVariations: string = "Badges Contextual Variations";
+export const BadgesContextualVariations: string =
+  "Badges Contextual Variations";
 export const PillsContextualVariations: string = "Pills Contextual Variations";
 export const NumberOfBadge: string = "Number of Badge ";
 export const NumberOfPillsTags: string = "Number of Pills Tags";
@@ -139,7 +147,7 @@ export const ButtonSmall: string = "button";
 export const TooltipsAndPopovers: string = "Tooltips and popovers";
 export const PopoverModal: string = "Popover in a modal";
 export const TooltipsModal: string = "Tooltips in a modal";
-export const OpenModalForMofi: string = "Open modal for Mofi";
+export const OpenModalForMofi: string = "Open modal for Sondoqi";
 export const SizesModal: string = "Sizes Modal";
 export const FullScreenModals: string = "Full Screen Modal";
 export const ExtraLargeModals: string = "Extra large Modal";
@@ -156,20 +164,21 @@ export const VerticallyCentered: string = "Vertically centered";
 export const ToggleBetweenModal: string = "Toggle Between Modals ";
 export const OpenFirstModal: string = "Open first Modal ";
 export const StaticBackdropModals: string = "Static Backdrop Modal";
-export const MofiCustomModal: string = "Mofi Custom Modals ";
+export const MofiCustomModal: string = "Sondoqi Custom Modals ";
 export const BalanceAmount: string = "$768,987.90";
 export const Cancel: string = "Cancel";
 export const Save: string = "Save";
 export const Close: string = "Close";
 export const SaveChanges: string = "Save changes";
 export const ClickOut: string = "Click Out";
-export const MofiSignUp: string = "Mofi SIGN-UP";
-export const MofiLogin: string = "Mofi Login";
+export const MofiSignUp: string = "Sondoqi SIGN-UP";
+export const MofiLogin: string = "Sondoqi Login";
 export const StaticBackdropModalBtn: string = "Static backdrop modal";
 export const SomethingWentWrong: string = "Ohh! Something went wrong!";
 export const AlreadyLeaving: string = "Already leaving??";
 export const YesLogOut: string = "Yes, Log out";
-export const ParentToggleTitle: string = "Remove your complete account from your phone or tablet to sign out of the Gmail app.";
+export const ParentToggleTitle: string =
+  "Remove your complete account from your phone or tablet to sign out of the Gmail app.";
 export const ConnectNewAccount: string = "Connect new account";
 export const ConnectNewRegisterAccount: string = "Register";
 export const SignIn: string = "Sign in";
@@ -180,7 +189,8 @@ export const EmailAddress: string = "Email Address";
 export const MofiEmail: string = "Mofitheme@gmail.com";
 export const EnterYourFirstName: string = "Enter your first-name";
 export const EnterYourLastName: string = "Enter your last-name";
-export const TermsAndCondition: string = "You accept our Terms and Privacy Policy by clicking Submit below.";
+export const TermsAndCondition: string =
+  "You accept our Terms and Privacy Policy by clicking Submit below.";
 export const ExtraLargeModal: string = "Extra large modal";
 export const WebDesign: string = "Web Design";
 export const StartWithYourGoals: string = "Start with your goals";
@@ -200,14 +210,16 @@ export const CheckoutRequired: string = "Need to mark";
 export const LinkColorDarkTheme: string = "Link Color In Dark Theme";
 export const LinkColorLightTheme: string = "Link Color In Light Theme";
 export const OutlineDarkLightAlerts: string = "Outline Dark And Light Alerts";
-export const AlertsWithIconsTextActions: string = "Alerts With Icons and Text Actions";
+export const AlertsWithIconsTextActions: string =
+  "Alerts With Icons and Text Actions";
 export const DismissingDarkAlert: string = "Dismissing Dark Alerts";
 export const DismissingLightAlert: string = "Dismissing Light Alerts";
 export const LiveAlerts: string = "Live Alert";
 export const ShowLiveAlert: string = "Show live alert";
 export const LeftBorderAlerts: string = "Left Border Alert";
 export const AdditionalContents: string = "Additional content";
-export const PleaseCheckYourNotifications: string = "Please! Check your notifications";
+export const PleaseCheckYourNotifications: string =
+  "Please! Check your notifications";
 
 //Ui Kits- Popover
 export const HurryUps: string = "Hurry Up!";
@@ -225,7 +237,8 @@ export const InlineTooltipContent: string = "Inline Tooltip Content";
 export const ColoredTooltips: string = "Colored Tooltip ";
 export const DirectionsTooltip: string = "Tooltip  Directions";
 export const TooltipOnTop: string = "Tooltip on tops";
-export const HTMLElementsWithHoverEffect: string = "HTML Elements With Hover Effect";
+export const HTMLElementsWithHoverEffect: string =
+  "HTML Elements With Hover Effect";
 export const NotificationsReceived: string = "Notifications Received";
 export const FilledTooltips: string = "Filled Tooltip";
 export const TooltipPrimary: string = "Tooltip Primary";
@@ -323,7 +336,8 @@ export const Blog: string = "Blog";
 export const Inbox: string = "Inbox";
 export const UxDesigner: string = "UX designer";
 export const IOTDeveloper: string = "IOT developer";
-export const MofiProfilesForNewEmployees: string = "Mofi Profiles For New Employees:";
+export const MofiProfilesForNewEmployees: string =
+  "Sondoqi Profiles For New Employees:";
 export const User: string = "User";
 export const Description: string = "Description";
 export const Review: string = "Review";
@@ -332,7 +346,8 @@ export const ExampleTextarea: string = "Example textarea";
 //Bonus Ui - Scrollable
 export const CustomScrollbars: string = "Custom Scrollbar";
 export const SmallSizeScrollbars: string = "Small Size Scrollbar";
-export const SolutionBusinessTransformation: string = "Solution for Business Transformation";
+export const SolutionBusinessTransformation: string =
+  "Solution for Business Transformation";
 export const BadgesScrollbars: string = "Badges Scrollbar";
 export const ProfileScrollableTitle: string = "Profile Scrollable";
 export const ScrollableContents: string = "Scrollable Content";
@@ -351,7 +366,8 @@ export const TopRightToasts: string = "Top-right toast";
 export const BottomRightToasts: string = "Bottom-right toast";
 export const TopLeftToasts: string = "Top-left toast";
 export const BottomLeftToasts: string = "Bottom-left toast";
-export const YourAccountWillBePermanentlyDeleted: string = "Your account will be permanently deleted?";
+export const YourAccountWillBePermanentlyDeleted: string =
+  "Your account will be permanently deleted?";
 export const ImNotSure: string = "I'm not sure";
 export const RemoveMyAccount: string = "Remove My Account";
 export const ColorsScheme: string = "Colors Schemes";
@@ -366,7 +382,8 @@ export const DefaultFileUploads: string = "Default File Upload";
 export const PreviewImage: string = "Image Preview ";
 export const SingleFileUploads: string = "Single File Upload";
 export const MultiFileUploads: string = "Multi File Upload";
-export const DropFilesHereOrClickToUpload: string = "Drop files here or click to upload.";
+export const DropFilesHereOrClickToUpload: string =
+  "Drop files here or click to upload.";
 
 //Bonus Ui - Tour
 export const Tour: string = "Tour";
@@ -374,9 +391,11 @@ export const WilliamJennings: string = "William C. Jennings";
 export const WebDesignerTour: string = " Web Designer";
 export const FollowerTour: string = "Follower";
 export const FollowingTour: string = "Following";
-export const WonderfulTour: string = "Wonderful piece that successfully conveys the magnificence of the mountains and the natural world.";
+export const WonderfulTour: string =
+  "Wonderful piece that successfully conveys the magnificence of the mountains and the natural world.";
 export const ReadMoreTour: string = "ReadMore";
-export const PainterTourTitle: string = "English Romantic painter, printer, and watercolourist ";
+export const PainterTourTitle: string =
+  "English Romantic painter, printer, and watercolourist ";
 
 //Bonus Ui - Rating
 export const RatingBars: string = "1 to 10 Rating Bar";
@@ -422,7 +441,8 @@ export const MouseWheelVariants: string = "Mouse Wheel Variant";
 export const WithIndicator: string = "With Indicators";
 export const WithCaption: string = "With Captions";
 export const CrossFades: string = "Cross-Fade";
-export const IndividualCarouselItemIntervals: string = "Individual Carousel-Item Interval";
+export const IndividualCarouselItemIntervals: string =
+  "Individual Carousel-Item Interval";
 export const DisableTouchSwipings: string = "Disable Touch Swiping";
 export const DarkVariants: string = "Dark Variant";
 
@@ -433,7 +453,8 @@ export const VariationsOfRightRibbons: string = "Variations Of Right Ribbons";
 
 //Bonus Ui - Paginations
 export const DefaultPaginations: string = "Default Pagination";
-export const PaginationWithActiveAndDisabled: string = "Pagination With Active And Disabled";
+export const PaginationWithActiveAndDisabled: string =
+  "Pagination With Active And Disabled";
 export const PaginationWithIcon: string = "Pagination With Icons";
 export const RoundedPaginations: string = "Rounded Pagination";
 export const PaginationAlignments: string = "Pagination Alignment";
@@ -476,7 +497,7 @@ export const Rotate: string = "Rotate";
 export const BasicCards: string = "Basic Card";
 export const FlatCards: string = "Flat Card";
 export const WithoutShadowCards: string = "Without shadow Card";
-export const MofiTheme: string = "Mofi Theme";
+export const MofiTheme: string = "Sondoqi Theme";
 export const IconInHeadings: string = "Icon In Heading";
 export const DarkColorCards: string = "Dark Color Card";
 export const FooterCard: string = "Card Footer";
@@ -513,12 +534,15 @@ export const MeetUp: string = "Meet-up";
 export const MeetUpTimelineTitle: string = "Meet-up";
 export const TimelineTitle: string = "Timeline";
 export const AppIdeas: string = "app-ideas";
-export const EstablishedNewTheAppIdeaRepository: string = "Established new the app-ideas repository.";
+export const EstablishedNewTheAppIdeaRepository: string =
+  "Established new the app-ideas repository.";
 export const ViewItOnGithub: string = "View it on Github ";
 export const BlogTimelineTitle: string = "Blog";
-export const ImplementedTheProgramForWeeklyCodeChallenges: string = "Implemented the program for weekly code challenges.";
+export const ImplementedTheProgramForWeeklyCodeChallenges: string =
+  "Implemented the program for weekly code challenges.";
 export const AudioTesting: string = "Audio testing";
-export const MusicalTrendsAndPredictability: string = "Musical trends and predictability";
+export const MusicalTrendsAndPredictability: string =
+  "Musical trends and predictability";
 export const WebDesignersMeeUp: string = "Web-designer's meet-up";
 export const PleaseMeetUp: string = "Please! Meet-up";
 export const MyResolutions: string = "My Resolutions";
@@ -583,10 +607,12 @@ export const ActiveButtonsHeading: string = "Active Buttons";
 export const DisabledButtonsHeading: string = "Disabled Buttons";
 export const CustomStateButtonsHeading: string = "Custom State Buttons";
 export const OutlineButtonsHeading: string = "Outline Buttons";
-export const BoldBorderOutlineButtonsHeading: string = "Bold Border Outline Buttons";
+export const BoldBorderOutlineButtonsHeading: string =
+  "Bold Border Outline Buttons";
 export const OutlineLargeButtonsHeading: string = "Outline Large Buttons";
 export const OutlineSmallButtonsHeading: string = "Outline Small Buttons";
-export const OutlineExtraSmallButtonsHeading: string = "Outline Extra Small Buttons";
+export const OutlineExtraSmallButtonsHeading: string =
+  "Outline Extra Small Buttons";
 export const DisabledOutlineButtonsHeading: string = "Disabled Outline Buttons";
 export const GradientButtonsHeading: string = "Gradient Buttons";
 export const Links: string = "Link";
@@ -614,7 +640,8 @@ export const EdgesButtonGroups: string = "Edges button group";
 export const FlatButtonGroups: string = "Flat button group";
 export const LargeButtonGroups: string = "Large Button group";
 export const LargeEdgesButtonGroups: string = "Large Edges Button group";
-export const OutlineCustomButtonGroupTitle: string = "Outline Custom button group";
+export const OutlineCustomButtonGroupTitle: string =
+  "Outline Custom button group";
 export const OutlineButtonGroups: string = "Outline button group";
 export const OutlineEdgeButton: string = "Outline Edges button";
 export const OutlineFlatButtons: string = "Outline flat button";
@@ -679,7 +706,8 @@ export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
 export const DontHaveAccount: string = "Don't have account?";
 export const CreateAccount: string = "Create Account ";
-export const EnterYourPersonalDetailsToCreateAccount: string = "Enter your personal details to create account";
+export const EnterYourPersonalDetailsToCreateAccount: string =
+  "Enter your personal details to create account";
 export const YourNameSignUp = "Your Name";
 export const EmailAddressSignUp = "Email Address";
 export const PasswordSignUp = "Password";
@@ -702,10 +730,12 @@ export const CreateYourPassword: string = "Create Your Password";
 export const CreateYourAccount: string = "Create your account";
 export const BackToHomePage: string = "BACK TO HOME PAGE";
 export const MaintenancesTitle: string = "MAINTENANCE";
-export const MaintenancesSubContent: string = "Our Site is Currently under maintenance We will be back Shortly";
+export const MaintenancesSubContent: string =
+  "Our Site is Currently under maintenance We will be back Shortly";
 export const ThankYouForPatience: string = "Thank You For Patience";
 export const SignUpToAccount: string = "Sign up to account";
-export const EnterYourEmailPasswordToLoginWizard: string = "Enter your email & password to login";
+export const EnterYourEmailPasswordToLoginWizard: string =
+  "Enter your email & password to login";
 export const FirstNameWizard: string = "First Name";
 export const LastNameWizard: string = "Last Name";
 export const ContactNameWizard: string = "Contact No.";
@@ -740,11 +770,15 @@ export const Seconds: string = "Seconds";
 export const ImageGallery: string = "IMAGE GALLERY";
 export const MyPortfolioTitle: string = "My Portfolio";
 export const MasonryGallery: string = "Masonry Gallery";
-export const GalleryGridWithDescriptions: string = "Gallery Grid With Description";
-export const GalleryGridWithDescriptionCap: string = "IMAGE GALLERY WITH DESCRIPTION";
-export const MasonryGalleryWithDescription: string = "Masonry Gallery With Description";
+export const GalleryGridWithDescriptions: string =
+  "Gallery Grid With Description";
+export const GalleryGridWithDescriptionCap: string =
+  "IMAGE GALLERY WITH DESCRIPTION";
+export const MasonryGalleryWithDescription: string =
+  "Masonry Gallery With Description";
 export const MasonryGalleryCap: string = "MASONRY GALLERY";
-export const MasonryGalleryDescriptionCap: string = "MASONRY GALLERY WITH DESCRIPTIONY";
+export const MasonryGalleryDescriptionCap: string =
+  "MASONRY GALLERY WITH DESCRIPTIONY";
 export const PortfolioTitle: string = "Portfolio Title";
 export const ImageHoverEffects: string = "Image Hover Effects";
 
@@ -766,7 +800,8 @@ export const PostTypePlaceholder: string = "Select Your Name....";
 export const BlogPostText: string = `Enter text in the area on the left. For more info, click the ? (help) icon in the menu.`;
 export const BlogPostButton: string = "Post";
 export const BlogDiscardButton: string = "Discard";
-export const BlogDropFilesHereOrClickToUpload: string = "Drop files here or click to upload.";
+export const BlogDropFilesHereOrClickToUpload: string =
+  "Drop files here or click to upload.";
 
 //FAQ
 export const QuickQuestions: string = "Quick Questions are answered";
@@ -819,7 +854,8 @@ export const FinancialServices: string = "Financial Services";
 export const ListView: string = "List View";
 export const JobDetails: string = "Job Detail";
 export const ApplyForThisJob: string = "Apply";
-export const ProductDesignerMainCard: string = "Product Designer (UI/UX Designer)";
+export const ProductDesignerMainCard: string =
+  "Product Designer (UI/UX Designer)";
 export const EndLessDesigner: string = "Endless - United States";
 export const SimilarJobs: string = "Similar jobs";
 export const JobDescriptionHeading: string = "Job Description";
@@ -828,7 +864,8 @@ export const AgencyExperience: string = "Agency experience";
 export const Perks: string = "Perks";
 export const Share: string = "share";
 export const JobUIDesigner: string = "UI Designer";
-export const JobEndlessTelecomTechnologie: string = "Endless Telecom & Technologies , NY";
+export const JobEndlessTelecomTechnologie: string =
+  "Endless Telecom & Technologies , NY";
 export const JobPersonalDetails: string = "Personal Details";
 export const JobYourEducation: string = "Your Education";
 export const JobYourExperience: string = "Your Experience";
@@ -929,7 +966,8 @@ export const DeleteData: string = "Delete Selected Data..!";
 export const ValidationForms: string = "Validation Forms";
 export const FormValidationTooltip: string = "Tooltip form validation";
 export const LooksGood: string = "Looks good!";
-export const UsernameFeedback: string = "Please choose a unique and valid username.";
+export const UsernameFeedback: string =
+  "Please choose a unique and valid username.";
 export const City: string = "City";
 export const Zip: string = "Zip";
 export const State: string = "State";
@@ -951,7 +989,8 @@ export const MasterCard: string = "MasterCard";
 export const Paypal: string = "Paypal";
 export const PayMethodTitle: string = "Select your payment method";
 export const AgreeToThePolicies: string = "I agree to the policies";
-export const SureInformation: string = "Are you sure above information are true";
+export const SureInformation: string =
+  "Are you sure above information are true";
 export const ValidationsForms: string = "Validation form";
 export const FirstNameError: string = "Please enter your valid firstname";
 export const FirstNameFeedback: string = "Please enter your valid";
@@ -992,8 +1031,10 @@ export const FileInputs: string = "File input";
 export const FlatInputStyles: string = "Flat input style";
 export const SmallFileInputExample: string = "Small file input example";
 export const LargeFileInputExample: string = "Large file input example";
-export const SelectYourFavoriteRomanNumber: string = "Select your favorite roman number";
-export const SelectYourMultiplePaintings: string = "Select your multiple paintings";
+export const SelectYourFavoriteRomanNumber: string =
+  "Select your favorite roman number";
+export const SelectYourMultiplePaintings: string =
+  "Select your multiple paintings";
 export const PleaseDoComments: string = "Please do comments";
 export const BasicHtmlInputControls: string = "Basic HTML input control";
 export const BasicPlaceholder: string = "Placeholder";
@@ -1019,12 +1060,14 @@ export const ListPlaceholder: string = "Look up your nation...";
 export const BasicTime: string = "Time";
 export const BasicColorPicker: string = "Color picker";
 export const BasicMaximumLength: string = "Maximum Length";
-export const MaximumLengthPlaceholder: string = "Content must be in 6 characters";
+export const MaximumLengthPlaceholder: string =
+  "Content must be in 6 characters";
 export const BasicStaticText: string = "Static Text";
 export const StaticTextData: string = "Hello !... This is my magical text";
 export const BasicSubmitButton: string = "Submit";
 export const BasicCancelButton: string = "Cancel";
-export const BasicFloatingInputControls: string = "Basic floating input control";
+export const BasicFloatingInputControls: string =
+  "Basic floating input control";
 export const FloatingValidInput: string = "Valid input ";
 export const InputWithValue: string = "Input with value";
 export const InvalidInput: string = "Invalid input";
@@ -1055,7 +1098,8 @@ export const EdgeEmailAddress: string = "Email address";
 export const EdgeEmailAddressPlaceholder: string = "name@example.com";
 export const EdgePassword: string = "Password";
 export const EdgePasswordPlaceholder: string = "Password";
-export const SelectYourFavoritePixelstrapTheme: string = "Select your favorite pixelstrap theme";
+export const SelectYourFavoritePixelstrapTheme: string =
+  "Select your favorite pixelstrap theme";
 export const DefaultFileInputExamples: string = "Default file input example";
 export const EdgeDefaultInput: string = "Default Input";
 export const EdgeDefaultInputPlaceholder: string = "Default Input";
@@ -1071,8 +1115,10 @@ export const RaisedPassword: string = "Password";
 export const RaisedPasswordPlaceholder: string = "Password";
 export const RaisedSubmit: string = "Submit";
 export const RaisedCancel: string = "Cancel";
-export const RaisedSelectYourFavoritePixelstrapTheme: string = "Select your favorite pixelstrap theme";
-export const SelectTheColorYouLikeBelow: string = "Select the color you like below";
+export const RaisedSelectYourFavoritePixelstrapTheme: string =
+  "Select your favorite pixelstrap theme";
+export const SelectTheColorYouLikeBelow: string =
+  "Select the color you like below";
 export const RaisedComments: string = "Comments";
 
 //Checkbox & Radio
@@ -1089,7 +1135,8 @@ export const BorderedCheckbox: string = "Bordered Checkbox ";
 export const PrimaryCheckboxPrimary: string = "Primary - checkbox-primary";
 export const IconCheckbox: string = "Icon Checkbox ";
 export const FilledCheckbox: string = "Filled Checkbox";
-export const WarningCheckboxSolidWarning: string = "Warning - checkbox-solid-warning ";
+export const WarningCheckboxSolidWarning: string =
+  "Warning - checkbox-solid-warning ";
 export const DefaultRadios: string = "Default radio";
 export const CustomRadio: string = "Custom Radios";
 export const DefaultRadioLabel: string = "Default radio";
@@ -1105,8 +1152,10 @@ export const FilledRadios: string = "Filled Radio";
 export const ProductRadio: string = "Product";
 export const DefaultSwitche: string = "Default switches";
 export const CustomSwitches: string = "Custom Switches";
-export const DefaultSwitchCheckboxInput: string = "Default switch checkbox input";
-export const CheckedSwitchCheckboxInput: string = "Checked switch checkbox input";
+export const DefaultSwitchCheckboxInput: string =
+  "Default switch checkbox input";
+export const CheckedSwitchCheckboxInput: string =
+  "Checked switch checkbox input";
 export const InlineInputType: string = "Inline input-types";
 export const InlineCheckbox: string = "Inline Checkbox";
 export const InlineRadio: string = "Inline Radios";
@@ -1115,7 +1164,8 @@ export const AnimatedButton: string = "Animated buttons";
 export const SelectYourPaymentMethods: string = "Select your payment method";
 export const VisaAnimated: string = "Visa";
 export const InstagramAnimated: string = "Instagram";
-export const WhatIsYourFavoriteSocialMedia: string = "What is your favorite social media?";
+export const WhatIsYourFavoriteSocialMedia: string =
+  "What is your favorite social media?";
 export const BasicRadioAndCheckboxs: string = "Basic radio and checkbox";
 export const SimpleCheckbox: string = "Simple Checkbox";
 export const BasicRadioAndCheckboxBlog: string = "Blog";
@@ -1137,9 +1187,11 @@ export const SubmitButtonAddonPlaceHolder: string = "Recipient's username";
 export const AddonPlaceHolder: string = "Recipient's username";
 export const CustomForm: string = "Custom forms ";
 export const OptionsFormGroup: string = "Options";
-export const PixelstrapThemeTitle: string = "Select Your Favorite Pixelstrap theme";
+export const PixelstrapThemeTitle: string =
+  "Select Your Favorite Pixelstrap theme";
 export const FavoriteColorsTitle: string = "Select Your Favorite Colors";
-export const FavoriteChocolatesTitle: string = "Select Your Favorite Chocolates";
+export const FavoriteChocolatesTitle: string =
+  "Select Your Favorite Chocolates";
 export const FavoriteThemeTitle: string = "Select Your Favorite Theme";
 export const CustomFormSubmit: string = "Submit";
 export const CustomFileInputs: string = "Custom file input";
@@ -1209,7 +1261,8 @@ export const TailprefixPlaceholder: string = "0000.00€";
 export const MegaOptions: string = "Mega options";
 export const VariationRadios: string = "Variation radio";
 export const VariationCheckboxs: string = "Variation checkbox";
-export const ChooseActivities: string = "Which of the following activities do you enjoy doing in your free time?";
+export const ChooseActivities: string =
+  "Which of the following activities do you enjoy doing in your free time?";
 export const UpgradeTitle: string = "It's time to";
 export const UpgradeSpanText: string = "upgrade";
 export const DefaultStyleMegaOptions: string = "Default style";
@@ -1243,7 +1296,8 @@ export const hourPicker: string = "24-hour Time Picker";
 export const TimePickerLimits: string = "Time Picker W/Limits";
 export const PreloadingTime: string = "Preloading Time";
 export const TimePickerRange: string = "TimePicker with Limited Time Range";
-export const TimePickerMinMaxRange: string = "TimePicker with Min/Max Time Range";
+export const TimePickerMinMaxRange: string =
+  "TimePicker with Min/Max Time Range";
 export const DateWithTime: string = "Date With Time";
 export const DateAndTimeHeading: string = "Date and time";
 export const Month: string = "Month";
@@ -1254,8 +1308,10 @@ export const Time: string = "Time";
 export const Touchspin: string = "Touchspin";
 export const DefaultTouchspins: string = "Default touchspin";
 export const OutlinedTouchspins: string = "Outlined touchspin";
-export const IconsWithPrefixAndPostfixs: string = "Icons with prefix and postfix";
-export const ButtonsWithPrefixAndPostfixs: string = "Buttons with prefix and postfix";
+export const IconsWithPrefixAndPostfixs: string =
+  "Icons with prefix and postfix";
+export const ButtonsWithPrefixAndPostfixs: string =
+  "Buttons with prefix and postfix";
 export const PreText: string = "Pre";
 export const PostText: string = "Post";
 export const RoundedTouchspins: string = "Rounded touchspin";
@@ -1277,7 +1333,8 @@ export const PreFetchHeading: string = "Prefetch";
 export const BloodHoundHeading: string = "Bloodhound (Suggestion Engine)";
 export const RemotetypeAheadHeading: string = "Remote typeahead";
 export const CustomTemplate: string = "Custom templates";
-export const MultipleSectionWithHeader: string = "Multiple sections with headers";
+export const MultipleSectionWithHeader: string =
+  "Multiple sections with headers";
 export const ScrollableDropDownMenu: string = "Scrollable Dropdown Menu";
 export const RTLSupport: string = "RTL Support";
 
@@ -1293,11 +1350,13 @@ export const ClipboardOnParagraphs: string = "Clipboard On Paragraph";
 export const CopyFromParagraph: string = "Copy From Paragraph";
 export const CopyPortionFromParagraphs: string = "Copy Portion From Paragraph";
 export const ClipBoardCopy: string = "Copy Portion From Paragraph";
-export const HighlightText: string = "Web design is the process of creating websites ";
+export const HighlightText: string =
+  "Web design is the process of creating websites ";
 export const CopyHighLightedText: string = " Copy highlighted text";
 
 //Two factor
-export const TwoFactorAuthenticationHeading: string = "Two-factor authentication";
+export const TwoFactorAuthenticationHeading: string =
+  "Two-factor authentication";
 export const FactorAuthentication: string = "2 factor authentication";
 export const VerificationCodeHeading: string = "Verification code";
 export const OtpCodeSent: string = "We've sent a verification code to";
@@ -1314,12 +1373,14 @@ export const PleaseEnterTheCodeHere: string = "Please enter the code here";
 export const FormWizard: string = "Form Wizard";
 export const NumberingWizardHeading: string = "Numbering wizard";
 export const ConfirmPassword: string = "Confirm Password";
-export const AgreeToTermsAndConditions: string = "Agree to terms and conditions";
+export const AgreeToTermsAndConditions: string =
+  "Agree to terms and conditions";
 export const PlaceHolderName: string = "Placeholder Name";
 export const Expiration: string = "Expiration(MM/YY)";
 export const CVVNumber: string = "CVV Number";
 export const UploadDocumentation: string = "Upload Documentation";
-export const AboveInformationCorrect: string = "All the above information is correct";
+export const AboveInformationCorrect: string =
+  "All the above information is correct";
 export const LinkedIn: string = "LinkedIn";
 export const Github: string = "Git hub";
 export const SelectState: string = "Select State";
@@ -1332,7 +1393,8 @@ export const PortfolioURL: string = " Portfolio URL";
 export const ProjectDescription: string = " Project Description";
 export const SocialLinks: string = " Social Links ";
 export const Twitter: string = " Twitter";
-export const VerticalValidationWizardHeading: string = "Vertical validation wizard";
+export const VerticalValidationWizardHeading: string =
+  "Vertical validation wizard";
 export const SelectPaymentMethod: string = "Select your payment method";
 export const NetBanking: string = " NET BANKING";
 export const SelectYourBank: string = " SELECT YOUR BANK";
@@ -1340,7 +1402,8 @@ export const AgreeConditions: string = "Agree to terms and conditions";
 export const Finish: string = "Finish";
 export const ShippingFormHeading: string = "Shipping form";
 export const BillingInformation: string = "Billing Information ";
-export const FillFollowingInformation: string = "Fill up the following information ";
+export const FillFollowingInformation: string =
+  "Fill up the following information ";
 export const ShippingInformation: string = "Shipping Information";
 export const SavedAddress: string = "Saved Address";
 export const Information: string = "Information";
@@ -1360,7 +1423,8 @@ export const ExpiryPlaceholder: string = "xx/xx";
 export const LinkedInPlaceholder: string = "https://linkedIn.com/mofi";
 export const GitHubPlaceholder: string = "https://github.com/mofi";
 export const TwitterPlaceholder: string = "https://twitter.com/mofi";
-export const AllTheAboveInformationIsCorrect: string = "All the above information is correct";
+export const AllTheAboveInformationIsCorrect: string =
+  "All the above information is correct";
 export const Address: string = "Address";
 export const RememberMeForNextTime: string = "Remember me for next time";
 export const OtherNotes: string = "Other notes";
@@ -1399,22 +1463,29 @@ export const CardHolder: string = "Card Holder";
 export const CardHolderPlaceholder: string = "Enter card holder name";
 export const PanPlaceholder: string = "xxxxxxxxxx";
 export const InqMail: string = "org@support.com";
-export const ShareYourProblemsAndAnotherIssues: string = "Share your problems and another issues";
+export const ShareYourProblemsAndAnotherIssues: string =
+  "Share your problems and another issues";
 
 //Reactstrap Table - Basic Table
 export const BootstrapBasicTable: string = "Bootstrap Basic Tables";
-export const BasicTableWithBorderBottomColor: string = "Basic Table With Border Bottom Color";
+export const BasicTableWithBorderBottomColor: string =
+  "Basic Table With Border Bottom Color";
 export const InverseTables: string = "Inverse Table";
-export const HoverableRowsWithHorizontalBorders: string = "Hoverable Rows With Horizontal Border";
-export const InverseTablWithPrimaryBackgrounds: string = "Inverse Table with Primary background";
+export const HoverableRowsWithHorizontalBorders: string =
+  "Hoverable Rows With Horizontal Border";
+export const InverseTablWithPrimaryBackgrounds: string =
+  "Inverse Table with Primary background";
 export const CaptionTableTitle: string = "Caption";
 export const UserList: string = "List of users";
 export const TableHeadOption: string = "Table head options";
-export const StripedRowWithInverseTables: string = "Striped Row with Inverse Table";
+export const StripedRowWithInverseTables: string =
+  "Striped Row with Inverse Table";
 export const BreckpointSpecifics: string = "Breckpoint Specific";
-export const ResponsiveLightBackgroundTitle: string = "Responsive Tables With Light Background";
+export const ResponsiveLightBackgroundTitle: string =
+  "Responsive Tables With Light Background";
 export const SizingTable: string = "Sizing Tables";
-export const CustomColorHoverStrippedTitle: string = "Custom Table Color With Hover And Stripped";
+export const CustomColorHoverStrippedTitle: string =
+  "Custom Table Color With Hover And Stripped";
 export const DashedBorderTitle: string = "Dashed Border";
 
 //Reactstrap Table - Table Components
@@ -1434,7 +1505,8 @@ export const SwitchTable: string = "SWITCH";
 export const ZeroConfiguration: string = "Zero Configuration";
 export const SearchTableButton: string = "Search";
 export const StateSavingTitle: string = "State saving";
-export const ScrollVerticalDynamicHeightTitle: string = "Scroll - vertical, dynamic height";
+export const ScrollVerticalDynamicHeightTitle: string =
+  "Scroll - vertical, dynamic height";
 
 //Data Tables - Advance Init
 export const StockResultTitle: string = `Stock Result`;
@@ -1442,12 +1514,15 @@ export const RowCreateCallBackSpan: string = "Row Create Callback";
 export const APIDataTables: string = "API DataTables";
 export const AddRowsTitle: string = "Add rows";
 export const AddNewRowButton: string = "Add new row";
-export const ChildrenRowsTitle: string = "Child rows (show extra / detailed information)";
+export const ChildrenRowsTitle: string =
+  "Child rows (show extra / detailed information)";
 export const ApiFullName: string = "Full Name: ";
 export const ExtraInfo: string = "Extra info ";
 export const ApiExtensionNumber: string = "Extension number: ";
-export const ApiExtraInfo: string = "'And any further details here (images etc)...'";
-export const RowsSelectionAndDeletions: string = "Row Selection And Deletion (Single Row)";
+export const ApiExtraInfo: string =
+  "'And any further details here (images etc)...'";
+export const RowsSelectionAndDeletions: string =
+  "Row Selection And Deletion (Single Row)";
 export const DeleteSelectDataButton: string = "Delete Row";
 export const CustomFilteringSearch: string = "Custom filtering - range search";
 export const MinimumAge: string = "Minimum age: ";
@@ -1606,11 +1681,15 @@ export const Immobilizer: string = "Immobilizer";
 export const TractionControl: string = "Traction Control";
 export const VehicleStabilityControl: string = "Vehicle Stability Control";
 export const BlindSpotDetectionBSD: string = "BlindSpot Detection (BSD)";
-export const AntiLockBrakingSystemABS: string = "Anti-Lock Braking System (ABS)";
+export const AntiLockBrakingSystemABS: string =
+  "Anti-Lock Braking System (ABS)";
 export const DoorOpeningWarning: string = "Door Opening Warning";
-export const LaneKeepAssistSystemLKAS: string = "Lane Keep Assist System (LKAS)";
-export const ElectronicBrakeForceDistributionEBD: string = "Electronic Brake-Force Distribution (EBD)";
-export const AutonomousEmergencyBrakingAEB: string = "Autonomous Emergency Braking (AEB)";
+export const LaneKeepAssistSystemLKAS: string =
+  "Lane Keep Assist System (LKAS)";
+export const ElectronicBrakeForceDistributionEBD: string =
+  "Electronic Brake-Force Distribution (EBD)";
+export const AutonomousEmergencyBrakingAEB: string =
+  "Autonomous Emergency Braking (AEB)";
 export const AlloyWheels: string = "Alloy Wheels";
 export const AdjustableHeadlights: string = "Adjustable Headlights";
 export const RearSpoiler: string = "Rear Spoiler";
@@ -1658,7 +1737,8 @@ export const RearCamera: string = "Rear Camera";
 export const Camera360: string = "360 Camera";
 export const PowerWindows: string = "Power Windows";
 export const PowerMirrors: string = "Power Mirrors";
-export const AutoRetractableSideMirrors: string = "Auto Retractable Side Mirrors";
+export const AutoRetractableSideMirrors: string =
+  "Auto Retractable Side Mirrors";
 export const FrontParkingSensors: string = "Front Parking Sensors";
 export const RearParkingSensors: string = "Rear Parking Sensors";
 export const ArmRest: string = "Arm Rest";
@@ -1668,7 +1748,8 @@ export const RearHeadrest: string = "Rear Headrest";
 export const AutoBrakeHold: string = "Auto Brake Hold";
 export const RearWiper: string = "Rear Wiper";
 export const AutoParkingSystem: string = "Auto Parking System";
-export const DriverSeatElectricAdjustment: string = "Driver Seat Electric Adjustment";
+export const DriverSeatElectricAdjustment: string =
+  "Driver Seat Electric Adjustment";
 export const DriverSeatLumbarSupport: string = "Driver Seat Lumbar Support";
 export const DriverSeatMemoryFunction: string = "Driver Seat Memory Function";
 export const FrontPowerOutlet: string = "Front Power Outlet";
@@ -1679,19 +1760,10 @@ export const WirelessCharger: string = "Wireless Charger";
 export const HeadlightOnReminder: string = "Headlight On Reminder";
 export const BossSeatSwitch: string = "Boss Seat Switch";
 export const AutomaticHeadLamps: string = "Automatic Head Lamps";
-export const TyrePressureMonitoringSystemTPMS: string = "Tyre Pressure Monitoring System (TPMS)";
-export const PassengerSeatElectricAdjustment: string = "Passenger Seat Electric Adjustment";
-
-
-
-
-
-
-
-
-
-
-
+export const TyrePressureMonitoringSystemTPMS: string =
+  "Tyre Pressure Monitoring System (TPMS)";
+export const PassengerSeatElectricAdjustment: string =
+  "Passenger Seat Electric Adjustment";
 
 export const ClientNamePlaceholder: string = "Name client or company name";
 export const ProjectProgress: string = "Project Progress";
@@ -1716,7 +1788,8 @@ export const CommentPlaceholder: string = "Add Comment";
 export const EnterSomeDetails: string = "Enter some Details";
 export const Add: string = "Add";
 export const UploadProjectFiles: string = "Upload project file";
-export const DropFileUploadText: string = "(This is just a demo dropzone. Selected files are ";
+export const DropFileUploadText: string =
+  "(This is just a demo dropzone. Selected files are ";
 export const ActualFileUpload: string = " actually uploaded.)";
 
 //file manager
@@ -1743,7 +1816,8 @@ export const QuickAccessTitle: string = "Quick Access";
 export const SearchWebsite: string = "Search Website";
 export const SearchPages: string = "Search Pages";
 export const SearchPixelStrap: string = `Search result for "Pixelstrap"`;
-export const SearchDesc: string = "Accusamus et iusto odio dignissimos ducimus qui blanditiis.";
+export const SearchDesc: string =
+  "Accusamus et iusto odio dignissimos ducimus qui blanditiis.";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 export const AllAbout: string = `About 6,000 results (0.60 seconds)`;
 
@@ -1783,7 +1857,8 @@ export const AddFriend: string = "Add Friend";
 export const LatestPhoto: string = "Latest Photos";
 export const Friends: string = "Friends";
 export const PeopleKnow: string = "Pepole You May Know";
-export const EducationAndEmploymentHeading: string = "Education and Employement";
+export const EducationAndEmploymentHeading: string =
+  "Education and Employement";
 export const HobbiesAndInterest: string = "Hobbies and Interests";
 export const ActivityLogHeading: string = "Activity Log";
 export const Followers: string = "Followers";
@@ -1956,11 +2031,16 @@ export const STEP: number = 10;
 export const MIN: number = 10;
 export const MAX: number = 1250;
 export const NewProducts: string = "New Products";
-export const ModalWomanText: string = "Lorate Solid Men's Fashion Full Sleeves Latest Jacket for Men With Button Closure Long Sleeve Casual Torn Lycra Denim Jacket.";
-export const ModalMensText: string = "Lorate Solid Men's Fashion Full Sleeves Latest Jacket for Men With Button Closure Long Sleeve Casual Torn Lycra Denim Jacket.";
-export const ModalLongText: string = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.";
-export const ModalRavaiyaaText: string = "Ravaiyaa - Attitude is everything Cotton Men's Dresses One Top Button T-Shirt.";
-export const ModalRockText: string = "Rock Paper Scissors women's Tank Top High Neck Cotton Top Stylish Women Top..";
+export const ModalWomanText: string =
+  "Lorate Solid Men's Fashion Full Sleeves Latest Jacket for Men With Button Closure Long Sleeve Casual Torn Lycra Denim Jacket.";
+export const ModalMensText: string =
+  "Lorate Solid Men's Fashion Full Sleeves Latest Jacket for Men With Button Closure Long Sleeve Casual Torn Lycra Denim Jacket.";
+export const ModalLongText: string =
+  "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.";
+export const ModalRavaiyaaText: string =
+  "Ravaiyaa - Attitude is everything Cotton Men's Dresses One Top Button T-Shirt.";
+export const ModalRockText: string =
+  "Rock Paper Scissors women's Tank Top High Neck Cotton Top Stylish Women Top..";
 export const Quantity: string = "Quantity";
 export const AddToCartButton: string = "Add to Cart";
 export const ViewDetails: string = "View Details";
@@ -1975,8 +2055,10 @@ export const CheckOut: string = " check out";
 
 //Ecommerce - Invoices
 export const BilledTo: string = "Billed To";
-export const MofiMatchettVandelayGroupLTD: string = "Mofi Matchett Vandelay Group LTD";
-export const UnitedStateTitleText: string = "2118 Thornridge Cir. Syracuse, Connecticut 35624, United State";
+export const MofiMatchettVandelayGroupLTD: string =
+  "Sondoqi Matchett Vandelay Group LTD";
+export const UnitedStateTitleText: string =
+  "2118 Thornridge Cir. Syracuse, Connecticut 35624, United State";
 export const InvoiceDate: string = "Invoice Date";
 export const InvoiceNumber: string = "Invoice Number";
 export const AmountDus: string = "Amount Dus (USD)";
@@ -2013,38 +2095,38 @@ export const Discount: string = "Discount";
 export const TotalDue: string = "Total Due";
 export const No: string = "No.";
 export const VATTax: string = "VAT / Tax 15%";
-export const Mofi: string = "Mofi";
+export const Sondoqi: string = "Sondoqi";
 export const ItemDescription: string = "Item Description";
 export const SubTotal: string = "Sub-total";
 export const Subtotal: string = "Subtotal";
-export const StateCountry = "State/Country"
-export const TownCity = "Town/City"
-export const PlaceOrder= "Place Order"
-export const Products= "Product"
-export const Total= "Total"
-export const Shipping= "Shipping"
-export const CashOnDelivery= "Cash On Delivery"
-export const CheckPayments= "Check Payments"
-export const ContactNo= "Contact No"
+export const StateCountry = "State/Country";
+export const TownCity = "Town/City";
+export const PlaceOrder = "Place Order";
+export const Products = "Product";
+export const Total = "Total";
+export const Shipping = "Shipping";
+export const CashOnDelivery = "Cash On Delivery";
+export const CheckPayments = "Check Payments";
+export const ContactNo = "Contact No";
 
 // Letter Box
-export const EmailFilter= "email filter"
-export const ComposeEmail =" Compose Email"
-export const Sent= "Sent"
-export const Starred= "Starred"
-export const Draft="Draft"
-export const Trash= "Trash"
-export const Work= "Work"
-export const Private= "Private"
-export const Support= "Support"
-export const AddLabelHeading = "Add Label"
-export const Promotion= "Promotion"
-export const ComposeMessage= "Compose Message"
-export const SaveAsDraft=  "Save as draft"
-export const InterviewMail= "Interview Mail"
-export const LabelName= "Label Name"
-export const LabelColor= "Label Color"
-export const FromHeading = "From"
+export const EmailFilter = "email filter";
+export const ComposeEmail = " Compose Email";
+export const Sent = "Sent";
+export const Starred = "Starred";
+export const Draft = "Draft";
+export const Trash = "Trash";
+export const Work = "Work";
+export const Private = "Private";
+export const Support = "Support";
+export const AddLabelHeading = "Add Label";
+export const Promotion = "Promotion";
+export const ComposeMessage = "Compose Message";
+export const SaveAsDraft = "Save as draft";
+export const InterviewMail = "Interview Mail";
+export const LabelName = "Label Name";
+export const LabelColor = "Label Color";
+export const FromHeading = "From";
 
 // ThemeCustomizer
 export const CheckLayouts = "Check layouts";
@@ -2054,42 +2136,42 @@ export const Layout_Type = "Layout Type";
 export const Sidebar_Icon = "Sidebar Icon";
 export const UnlimitedColor = "Unlimited Color";
 export const Mix_Layout = "MixLayout";
-export const Sidebar_Type = 'Sidebar Type';
-export const Box = "Box"
-export const Fill= "Fill"
-export const LTRBadges= "LTR"
-export const RTLBadges = "RTL"
-export const Stroke= "Stroke"
-export const Configuration = 'Configuration';
+export const Sidebar_Type = "Sidebar Type";
+export const Box = "Box";
+export const Fill = "Fill";
+export const LTRBadges = "LTR";
+export const RTLBadges = "RTL";
+export const Stroke = "Stroke";
+export const Configuration = "Configuration";
 
 //Ecommerce - Invoices
-export const ProductForm = "Product Form"
-export const ProductTitle ="Product Title"
-export const DragFilesHere= "Drag files here"
-export const AddTag = "Add Tag"
-export const CreateNewCategoryHeading= "Create New Category"
-export const CategoryName= "Category Name"
-export const PublishStatus =" Publish Status"
-export const PublishDateTime = "Publish Date & Time"
-export const InitialCost= "Initial cost"
-export const SellingPrice= "Selling price"
-export const ChooseYourCurrency= "Choose your currency"
-export  const ProductStocks = "Product stocks"
-export const TypesOfProductDiscount = "Types of product discount"
-export const AllowBackOrders= "Allow Backorders"
-export const AdditionalTagTitle = "Additional Tag Title"
-export const SpecificTags= "Specific Tags"
-export const AdditionalDescription= "Additional Description"
-export const WeightKg = "Weight (kg)"
-export const Dimensions= "Dimensions"
-export const ShippingClass= "Shipping Class"
-export const Length= "Length[l]"
-export const Width= "Width[w]"
-export const Height= "Height[h]"
-export const LowStock= "Low Stock"
-export const PreOrder = "Pre-Order"
-export const RestockDate = "Restock Date"
-export const SKU= "SKU"
-export const StockAvailability= "Stock Availability"
-export const StockQuantity= "Stock Quantity"
+export const ProductForm = "Product Form";
+export const ProductTitle = "Product Title";
+export const DragFilesHere = "Drag files here";
+export const AddTag = "Add Tag";
+export const CreateNewCategoryHeading = "Create New Category";
+export const CategoryName = "Category Name";
+export const PublishStatus = " Publish Status";
+export const PublishDateTime = "Publish Date & Time";
+export const InitialCost = "Initial cost";
+export const SellingPrice = "Selling price";
+export const ChooseYourCurrency = "Choose your currency";
+export const ProductStocks = "Product stocks";
+export const TypesOfProductDiscount = "Types of product discount";
+export const AllowBackOrders = "Allow Backorders";
+export const AdditionalTagTitle = "Additional Tag Title";
+export const SpecificTags = "Specific Tags";
+export const AdditionalDescription = "Additional Description";
+export const WeightKg = "Weight (kg)";
+export const Dimensions = "Dimensions";
+export const ShippingClass = "Shipping Class";
+export const Length = "Length[l]";
+export const Width = "Width[w]";
+export const Height = "Height[h]";
+export const LowStock = "Low Stock";
+export const PreOrder = "Pre-Order";
+export const RestockDate = "Restock Date";
+export const SKU = "SKU";
+export const StockAvailability = "Stock Availability";
+export const StockQuantity = "Stock Quantity";
 export const MdeEditorText = `Enter your messages...`;

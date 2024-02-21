@@ -6,7 +6,11 @@ import { TitleSweetAlert } from "@/Data/BonusUi/SweetAlert";
 
 const TitleWithTextUnder = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ title: "It's Magic!", text: "Thank you for visiting Mofi theme" ,confirmButtonColor:"#7A70BA"});
+    SweetAlert.fire({
+      title: "It's Magic!",
+      text: "Thank you for visiting Sondoqi theme",
+      confirmButtonColor: "#1194a8",
+    });
   };
 
   return (
@@ -14,7 +18,9 @@ const TitleWithTextUnder = () => {
       <Card className="height-equal">
         <CommonCardHeader title={TitleWithATextUnder} span={TitleSweetAlert} />
         <CardBody className="btn-showcase">
-          <Button color="secondary" className="sweet-2" onClick={displayAlert}>{Surprise}</Button>
+          <Button color="secondary" className="sweet-2" onClick={displayAlert}>
+            {Surprise}
+          </Button>
         </CardBody>
       </Card>
     </Col>

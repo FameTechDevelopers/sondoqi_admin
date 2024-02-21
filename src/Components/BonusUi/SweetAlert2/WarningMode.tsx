@@ -6,7 +6,12 @@ import { WarningModeData } from "@/Data/BonusUi/SweetAlert";
 
 const WarningMode = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ icon: "warning", title: "Good job!", text: "You clicked the button!", confirmButtonColor: "#7A70BA" });
+    SweetAlert.fire({
+      icon: "warning",
+      title: "Good job!",
+      text: "You clicked the button!",
+      confirmButtonColor: "#1194a8",
+    });
   };
 
   return (
@@ -14,7 +19,9 @@ const WarningMode = () => {
       <Card className="height-equal">
         <CommonCardHeader title={WarningModes} span={WarningModeData} />
         <CardBody className="btn-showcase">
-          <Button color="warning" className="sweet-6" onClick={displayAlert}>{AlertMode}</Button>
+          <Button color="warning" className="sweet-6" onClick={displayAlert}>
+            {AlertMode}
+          </Button>
         </CardBody>
       </Card>
     </Col>

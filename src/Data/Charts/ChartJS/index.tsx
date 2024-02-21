@@ -1,8 +1,35 @@
-import { ArcElement, BarController, BarElement, CategoryScale, Chart as ChartJS, Filler, Legend, LineElement, LinearScale, PointElement, RadialLinearScale, Title, Tooltip } from "chart.js";
+import {
+  ArcElement,
+  BarController,
+  BarElement,
+  CategoryScale,
+  Chart as ChartJS,
+  Filler,
+  Legend,
+  LineElement,
+  LinearScale,
+  PointElement,
+  RadialLinearScale,
+  Title,
+  Tooltip,
+} from "chart.js";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler, BarController, BarElement, ArcElement, RadialLinearScale);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  Filler,
+  BarController,
+  BarElement,
+  ArcElement,
+  RadialLinearScale
+);
 
-const primary = "#7A70BA";
+const primary = "#1194a8";
 const secondary = "#48A3D7";
 
 export const ChartJsBarChartData = {
@@ -64,7 +91,7 @@ export const LineGraphChartData = {
   },
 };
 
-export const LineGraphChartDataOption= {
+export const LineGraphChartDataOption = {
   maintainAspectRatio: true,
   legend: {
     display: false,
@@ -167,21 +194,21 @@ export const LineChartDataOption = {
 };
 
 export const DoughnutChartData = {
-  labels: ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'],
+  labels: ["Download Sales", "In-Store Sales", "Mail-Order Sales"],
   datasets: [
     {
       data: [300, 50, 100],
-      backgroundColor: [primary, secondary, '#51bb25'],
+      backgroundColor: [primary, secondary, "#51bb25"],
     },
   ],
 };
 
-export const DoughnutChartDataOption= {
+export const DoughnutChartDataOption = {
   maintainAspectRatio: false,
   plugins: {
     datalabels: {
       display: false,
-      color: 'white',
+      color: "white",
     },
     legend: {
       display: false,
@@ -190,21 +217,27 @@ export const DoughnutChartDataOption= {
 };
 
 export const PolarChartData = {
-  labels: ['Download Sales', 'In-Store Sales', 'Mail Sales', 'Telesales', 'Corporate Sales'],
+  labels: [
+    "Download Sales",
+    "In-Store Sales",
+    "Mail Sales",
+    "Telesales",
+    "Corporate Sales",
+  ],
   datasets: [
     {
       data: [300, 50, 100, 40, 120],
-      backgroundColor: [primary, '#f8d62b', '#51bb25', '#a927f9', secondary],
+      backgroundColor: [primary, "#f8d62b", "#51bb25", "#a927f9", secondary],
     },
   ],
 };
 
-export const PolarChartDataOption= {
+export const PolarChartDataOption = {
   maintainAspectRatio: false,
   plugins: {
     datalabels: {
       display: false,
-      color: 'white',
+      color: "white",
     },
     legend: {
       display: false,

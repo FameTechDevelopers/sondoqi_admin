@@ -1,13 +1,38 @@
 //@ts-nocheck
 import { ApexOptions } from "apexcharts";
 
-const primary = "#7A70BA";
+const primary = "#1194a8";
 const secondary = "#48A3D7";
 
 const series = {
   monthDataSeries1: {
-    prices: [8107.85, 8128.0, 8122.9, 8165.5, 8340.7, 8423.7, 8423.5, 8514.3, 8481.85, 8487.7, 8506.9, 8626.2, 8668.95, 8602.3, 8607.55, 8512.9, 8496.25, 8600.65, 8881.1, 9340.85],
-    dates: ["13 Nov 2023", "14 Nov 2023", "15 Nov 2023", "16 Nov 2023", "17 Nov 2023", "20 Nov 2023", "21 Nov 2023", "22 Nov 2023", "23 Nov 2023", "24 Nov 2023", "27 Nov 2023", "28 Nov 2023", "29 Nov 2023", "30 Nov 2023", "01 Dec 2023", "04 Dec 2023", "05 Dec 2023", "06 Dec 2023", "07 Dec 2023", "08 Dec 2023"],
+    prices: [
+      8107.85, 8128.0, 8122.9, 8165.5, 8340.7, 8423.7, 8423.5, 8514.3, 8481.85,
+      8487.7, 8506.9, 8626.2, 8668.95, 8602.3, 8607.55, 8512.9, 8496.25,
+      8600.65, 8881.1, 9340.85,
+    ],
+    dates: [
+      "13 Nov 2023",
+      "14 Nov 2023",
+      "15 Nov 2023",
+      "16 Nov 2023",
+      "17 Nov 2023",
+      "20 Nov 2023",
+      "21 Nov 2023",
+      "22 Nov 2023",
+      "23 Nov 2023",
+      "24 Nov 2023",
+      "27 Nov 2023",
+      "28 Nov 2023",
+      "29 Nov 2023",
+      "30 Nov 2023",
+      "01 Dec 2023",
+      "04 Dec 2023",
+      "05 Dec 2023",
+      "06 Dec 2023",
+      "07 Dec 2023",
+      "08 Dec 2023",
+    ],
   },
 };
 
@@ -82,7 +107,15 @@ export const AreaSpalingChart: ApexOptions = {
 
   xaxis: {
     type: "datetime",
-    categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00"],
+    categories: [
+      "2018-09-19T00:00:00",
+      "2018-09-19T01:30:00",
+      "2018-09-19T02:30:00",
+      "2018-09-19T03:30:00",
+      "2018-09-19T04:30:00",
+      "2018-09-19T05:30:00",
+      "2018-09-19T06:30:00",
+    ],
   },
   tooltip: {
     x: {
@@ -114,7 +147,18 @@ export const BarChartData: ApexOptions = {
     },
   ],
   xaxis: {
-    categories: ["South Korea", "Canada", "United Kingdom", "Netherlands", "Italy", "France", "Japan", "United States", "China", "Germany"],
+    categories: [
+      "South Korea",
+      "Canada",
+      "United Kingdom",
+      "Netherlands",
+      "Italy",
+      "France",
+      "Japan",
+      "United States",
+      "China",
+      "Germany",
+    ],
   },
   colors: [primary],
 };
@@ -176,12 +220,17 @@ export const ColumnChartData: ApexOptions = {
   colors: [primary, secondary, "#51bb25"],
 };
 
-function generateData(baseval: number, count: number, yrange: { min: number; max: number }) {
+function generateData(
+  baseval: number,
+  count: number,
+  yrange: { min: number; max: number }
+) {
   var i = 0;
   var series = [];
   while (i < count) {
     var x = Math.floor(Math.random() * (750 - 1 + 1)) + 1;
-    var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+    var y =
+      Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
     var z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
 
     series.push([baseval, y, z]);
@@ -503,7 +552,19 @@ export const MixChartData: ApexOptions = {
       stops: [0, 100, 100, 100],
     },
   },
-  labels: ["01/01/2003", "02/01/2003", "03/01/2003", "04/01/2003", "05/01/2003", "06/01/2003", "07/01/2003", "08/01/2003", "09/01/2003", "10/01/2003", "11/01/2003"],
+  labels: [
+    "01/01/2003",
+    "02/01/2003",
+    "03/01/2003",
+    "04/01/2003",
+    "05/01/2003",
+    "06/01/2003",
+    "07/01/2003",
+    "08/01/2003",
+    "09/01/2003",
+    "10/01/2003",
+    "11/01/2003",
+  ],
   markers: {
     size: 0,
   },
@@ -824,7 +885,15 @@ export const RadarChartData: ApexOptions = {
       data: [20, 100, 40, 30, 50, 80, 33],
     },
   ],
-  labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+  labels: [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ],
   plotOptions: {
     radar: {
       size: 140,
@@ -848,7 +917,7 @@ export const RadarChartData: ApexOptions = {
   },
   tooltip: {
     y: {
-      formatter: function (val:number) {
+      formatter: function (val: number) {
         return val;
       },
     },
@@ -867,7 +936,6 @@ export const RadarChartData: ApexOptions = {
   },
   color: ["#fd2e64"],
 };
-
 
 export const CircleChartData: ApexOptions = {
   chart: {

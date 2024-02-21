@@ -1,4 +1,4 @@
-const primary = "#7A70BA";
+const primary = "#1194a8";
 const secondary = "#48A3D7";
 
 export const AreChartOneData = [
@@ -95,11 +95,56 @@ const columns = [
 ];
 
 const rows = [
-  ["Research", "Find sources", null, new Date(2015, 0, 1), new Date(2015, 0, 5), null, 100, null],
-  ["Write", "Write paper", "write", null, new Date(2015, 0, 9), daysToMilliseconds(3), 25, "Research,Outline"],
-  ["Cite", "Create bibliography", "write", null, new Date(2015, 0, 7), daysToMilliseconds(1), 20, "Research"],
-  ["Complete", "Hand in paper", "complete", null, new Date(2015, 0, 10), daysToMilliseconds(1), 0, "Cite,Write"],
-  ["Outline", "Outline paper", "write", null, new Date(2015, 0, 6), daysToMilliseconds(1), 100, "Research"],
+  [
+    "Research",
+    "Find sources",
+    null,
+    new Date(2015, 0, 1),
+    new Date(2015, 0, 5),
+    null,
+    100,
+    null,
+  ],
+  [
+    "Write",
+    "Write paper",
+    "write",
+    null,
+    new Date(2015, 0, 9),
+    daysToMilliseconds(3),
+    25,
+    "Research,Outline",
+  ],
+  [
+    "Cite",
+    "Create bibliography",
+    "write",
+    null,
+    new Date(2015, 0, 7),
+    daysToMilliseconds(1),
+    20,
+    "Research",
+  ],
+  [
+    "Complete",
+    "Hand in paper",
+    "complete",
+    null,
+    new Date(2015, 0, 10),
+    daysToMilliseconds(1),
+    0,
+    "Cite,Write",
+  ],
+  [
+    "Outline",
+    "Outline paper",
+    "write",
+    null,
+    new Date(2015, 0, 6),
+    daysToMilliseconds(1),
+    100,
+    "Research",
+  ],
 ];
 
 export const GanttChartData = [columns, ...rows];
@@ -126,7 +171,12 @@ export const GanttChartDataOption: any = {
 };
 
 export const LineChartData = [
-  ["Month", "Guardians of the Galaxy", "The Avengers", "Transformers: Age of Extinction"],
+  [
+    "Month",
+    "Guardians of the Galaxy",
+    "The Avengers",
+    "Transformers: Age of Extinction",
+  ],
   [1, 37.8, 80.8, 41.8],
   [2, 30.9, 10.5, 32.4],
   [3, 40.4, 57, 25.7],
@@ -202,7 +252,27 @@ export const BarOneChartDataOption: any = {
   },
 };
 
-export const WordTreeChartData = [["Phrases"], ["cats are better than dogs"], ["cats eat kibble"], ["cats are better than hamsters"], ["cats are awesome"], ["cats are people too"], ["cats eat mice"], ["cats meowing"], ["cats in the cradle"], ["cats eat mice"], ["cats in the cradle lyrics"], ["cats eat kibble"], ["cats for adoption"], ["cats are family"], ["cats eat mice"], ["cats are better than kittens"], ["cats are evil"], ["cats are weird"], ["cats eat mice"]];
+export const WordTreeChartData = [
+  ["Phrases"],
+  ["cats are better than dogs"],
+  ["cats eat kibble"],
+  ["cats are better than hamsters"],
+  ["cats are awesome"],
+  ["cats are people too"],
+  ["cats eat mice"],
+  ["cats meowing"],
+  ["cats in the cradle"],
+  ["cats eat mice"],
+  ["cats in the cradle lyrics"],
+  ["cats eat kibble"],
+  ["cats for adoption"],
+  ["cats are family"],
+  ["cats eat mice"],
+  ["cats are better than kittens"],
+  ["cats are evil"],
+  ["cats are weird"],
+  ["cats eat mice"],
+];
 
 export const WordTreeChartDataOption: any = {
   wordtree: {
@@ -236,7 +306,7 @@ export const PieChartTwoData = [
   ["Sleep", 7],
 ];
 
-export const PieChartTwoDataOption:any = {
+export const PieChartTwoDataOption: any = {
   title: "My Daily Activities",
   pieHole: 0.4,
   width: "100%",

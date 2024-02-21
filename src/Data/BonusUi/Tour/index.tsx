@@ -73,11 +73,11 @@ export const CommonFooterData = [
 export const TourSteps = [
   {
     selector: ".step1",
-    content: "This is Mofi profile",
+    content: "This is Sondoqi profile",
   },
   {
     selector: ".step2",
-    content: "Change Mofi profile image here",
+    content: "Change Sondoqi profile image here",
   },
   {
     selector: ".step3",

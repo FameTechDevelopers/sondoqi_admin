@@ -29,23 +29,13 @@ const DefaultDashboardContainer = () => {
   return (
     <>
       <Container fluid className="default-dashboard">
-        <Card className="profile-greeting p-2">
-          <Row className="widget-grid">
-            <Col xxl="10" md="5" className="proorder-xl-3 proorder-md-3"></Col>
-            <Col xxl="2" className="box-col-12 proorder-xl-8 proorder-md-9">
-              <Input className="digits" type="month" defaultValue="2023-01" />
-            </Col>
-          </Row>
-        </Card>
-      </Container>
-      <Container fluid className="default-dashboard">
         <Row className="widget-grid">
           <UserInfo />
-          <OpeningOfLeaflets />
-          <ShiftsOverview />
+          {/* <OpeningOfLeaflets />
+          <ShiftsOverview /> */}
         </Row>
       </Container>
-      <Container fluid className="default-dashboard">
+      {/* <Container fluid className="default-dashboard">
         <Row className="widget-grid">
           <SalesStatistic />
         </Row>
@@ -72,7 +62,7 @@ const DefaultDashboardContainer = () => {
           <ProjectsOverview />
           <ClientActivity />
         </Row>
-      </Container>
+      </Container> */}
     </>
   );
 };

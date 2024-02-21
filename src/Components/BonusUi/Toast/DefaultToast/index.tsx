@@ -14,12 +14,23 @@ const DefaultToast = () => {
         <CardBody className="toast-rtl">
           <Toast className="default-show-toast" isOpen={open}>
             <div className="toast-header toast-img">
-              <img className="rounded me-2" src={`${ImagePath}/other-images/profile.png`} alt="profile" />
-              <strong className="me-auto">Mofi theme</strong>
+              <img
+                className="rounded me-2"
+                src={`${ImagePath}/other-images/profile.png`}
+                alt="profile"
+              />
+              <strong className="me-auto">Sondoqi theme</strong>
               <small className="d-sm-block d-none">10 min ago</small>
-              <Button close className="p-0" onClick={() => setOpen(false)}></Button>
+              <Button
+                close
+                className="p-0"
+                onClick={() => setOpen(false)}
+              ></Button>
             </div>
-            <ToastBody className="toast-dark"><strong className="txt-success">Well done!</strong> You successfully read this important message.</ToastBody>
+            <ToastBody className="toast-dark">
+              <strong className="txt-success">Well done!</strong> You
+              successfully read this important message.
+            </ToastBody>
           </Toast>
         </CardBody>
       </Card>

@@ -1,6 +1,10 @@
-import { DeliveryFoodApp, NFTillustrationPackage, PodcastlandingPage } from "@/Constant";
+import {
+  DeliveryFoodApp,
+  NFTillustrationPackage,
+  PodcastlandingPage,
+} from "@/Constant";
 import { ApexOptions } from "apexcharts";
-import moment from "moment"
+import moment from "moment";
 
 const primary = "var(--theme-default)";
 const secondary = "var(--theme-secondary)";
@@ -291,7 +295,14 @@ export const TotalProjectChart: ApexOptions = {
     },
   },
   xaxis: {
-    categories: ["01/01/2011 GMT", "01/02/2011 GMT", "01/03/2011 GMT", "01/04/2011 GMT", "01/05/2011 GMT", "01/06/2011 GMT"],
+    categories: [
+      "01/01/2011 GMT",
+      "01/02/2011 GMT",
+      "01/03/2011 GMT",
+      "01/04/2011 GMT",
+      "01/05/2011 GMT",
+      "01/06/2011 GMT",
+    ],
     labels: {
       show: false,
     },
@@ -333,7 +344,10 @@ export const ProjectChart: ApexOptions = {
     {
       name: "Earning",
       type: "area",
-      data: [43, 43, 48, 43, 57, 50, 34, 52, 40, 40, 40, 46, 52, 40, 40, 30, 42, 37, 42, 38, 38, 38],
+      data: [
+        43, 43, 48, 43, 57, 50, 34, 52, 40, 40, 40, 46, 52, 40, 40, 30, 42, 37,
+        42, 38, 38, 38,
+      ],
     },
   ],
   chart: {
@@ -366,7 +380,7 @@ export const ProjectChart: ApexOptions = {
       columnWidth: "50%",
     },
   },
-  colors: ["#7A70BA", "#54BA4A", "#FF3364"],
+  colors: ["#1194a8", "#54BA4A", "#FF3364"],
   fill: {
     type: "gradient",
     gradient: {
@@ -410,7 +424,30 @@ export const ProjectChart: ApexOptions = {
       },
     ],
   },
-  labels: ["Jan", "", "Feb", "", "Feb", "", "Apr", "", "Mar", "", "Jun", "", "Apr", "", "Aug", "Sep", "May", "Nov", "Aug", "Sep", "Jun", "Nov"],
+  labels: [
+    "Jan",
+    "",
+    "Feb",
+    "",
+    "Feb",
+    "",
+    "Apr",
+    "",
+    "Mar",
+    "",
+    "Jun",
+    "",
+    "Apr",
+    "",
+    "Aug",
+    "Sep",
+    "May",
+    "Nov",
+    "Aug",
+    "Sep",
+    "Jun",
+    "Nov",
+  ],
   xaxis: {
     type: "category",
     tickAmount: 4,
@@ -466,7 +503,10 @@ export const OrderChart: ApexOptions = {
   series: [
     {
       name: "Revenue",
-      data: [30, 40, 18, 25, 18, 10, 20, 35, 22, 40, 30, 38, 20, 35, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11],
+      data: [
+        30, 40, 18, 25, 18, 10, 20, 35, 22, 40, 30, 38, 20, 35, 11, 28, 40, 11,
+        28, 40, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11, 28, 40, 11,
+      ],
     },
   ],
   chart: {
@@ -495,7 +535,23 @@ export const OrderChart: ApexOptions = {
     colors: ["transparent"],
   },
   xaxis: {
-    categories: ["Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    categories: [
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+    ],
     labels: {
       show: false,
     },
@@ -657,77 +713,77 @@ export const ClientActivityTableData = [
 ];
 
 export const TodayTasksData = [
-    {
-        color:"primary",
-        header:NFTillustrationPackage,
-        img:"17.png",
-        name:"Hackett Yessenia",
-        assign:"Assigned to",
-    },
-    {
-        color:"secondary",
-        header:PodcastlandingPage,
-        img:"13.png",
-        img1:"14.png",
-        name:"schneider..",
-        assign:"Assigned to",
-    },
-    {
-        color:"warning",
-        header:DeliveryFoodApp,
-        img:"15.png",
-        name:"Mahdi Gholizadeh",
-        assign:"Assigned to",
-    }
-]
+  {
+    color: "primary",
+    header: NFTillustrationPackage,
+    img: "17.png",
+    name: "Hackett Yessenia",
+    assign: "Assigned to",
+  },
+  {
+    color: "secondary",
+    header: PodcastlandingPage,
+    img: "13.png",
+    img1: "14.png",
+    name: "schneider..",
+    assign: "Assigned to",
+  },
+  {
+    color: "warning",
+    header: DeliveryFoodApp,
+    img: "15.png",
+    name: "Mahdi Gholizadeh",
+    assign: "Assigned to",
+  },
+];
 
-export const OnlineTimelineGroup =[
-    { id: 1, title: '12am' },
-    { id: 2, title: '1am' },
-    { id: 3, title: '2am' },
-    { id: 4, title: '3am' },
-    { id: 5, title: '4am' },
-    { id: 6, title: '5am' },
-    { id: 7, title: '6am' },
-    { id: 8, title: '7am' },
-    { id: 9, title: '8am' },
-    { id: 10, title: '9am' },
-    { id: 11, title: '10am' },
-    { id: 12, title: '11am' },
-    { id: 13, title: '12pm' },
-    { id: 14, title: '1pm' },
-    { id: 15, title: '2pm' },
-    { id: 16, title: '3pm' },
-    { id: 17, title: '4pm' },
-    { id: 18, title: '5pm' },
-    { id: 19, title: '6pm' },
-    { id: 20, title: '7pm' },
-    { id: 21, title: '8pm' },
-    { id: 22, title: '9pm' },
-    { id: 23, title: '10pm' },
-    { id: 24, title: '11pm' },
-] 
+export const OnlineTimelineGroup = [
+  { id: 1, title: "12am" },
+  { id: 2, title: "1am" },
+  { id: 3, title: "2am" },
+  { id: 4, title: "3am" },
+  { id: 5, title: "4am" },
+  { id: 6, title: "5am" },
+  { id: 7, title: "6am" },
+  { id: 8, title: "7am" },
+  { id: 9, title: "8am" },
+  { id: 10, title: "9am" },
+  { id: 11, title: "10am" },
+  { id: 12, title: "11am" },
+  { id: 13, title: "12pm" },
+  { id: 14, title: "1pm" },
+  { id: 15, title: "2pm" },
+  { id: 16, title: "3pm" },
+  { id: 17, title: "4pm" },
+  { id: 18, title: "5pm" },
+  { id: 19, title: "6pm" },
+  { id: 20, title: "7pm" },
+  { id: 21, title: "8pm" },
+  { id: 22, title: "9pm" },
+  { id: 23, title: "10pm" },
+  { id: 24, title: "11pm" },
+];
 
 export const OnlineTimelineItems = [
-    {
-      id: 1,
-      group: 1,
-      title: 'Create Detail Page',
-      start_time: moment(),
-      end_time: moment().add(1, 'hour')
-    },
-    {
-      id: 2,
-      group: 2,
-      title: 'Profile Landing page',
-      start_time: moment().add(-0.5, 'hour'),
-      end_time: moment().add(0.5, 'hour')
-    },
-    {
-      id: 3,
-      group: 1,
-      title: 'Teammeeting',
-      start_time: moment().add(2, 'hour'),
-      end_time: moment().add(3, 'hour')
-    }
-  ]
+  {
+    id: 1,
+    group: 1,
+    title: "Create Detail Page",
+    start_time: moment(),
+    end_time: moment().add(1, "hour"),
+  },
+  {
+    id: 2,
+    group: 2,
+    title: "Profile Landing page",
+    start_time: moment().add(-0.5, "hour"),
+    end_time: moment().add(0.5, "hour"),
+  },
+  {
+    id: 3,
+    group: 1,
+    title: "Teammeeting",
+    start_time: moment().add(2, "hour"),
+    end_time: moment().add(3, "hour"),
+  },
+];

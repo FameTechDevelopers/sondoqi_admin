@@ -6,7 +6,13 @@ import { QuestionAlertData } from "@/Data/BonusUi/SweetAlert";
 
 const QuestionsAlert = () => {
   const displayAlert = () => {
-    SweetAlert.fire({ text: "Are you sure you want to do this?", showCancelButton: true, cancelButtonText: "Oh noez!", confirmButtonText: "Aww yess!",confirmButtonColor: "#7A70BA" });
+    SweetAlert.fire({
+      text: "Are you sure you want to do this?",
+      showCancelButton: true,
+      cancelButtonText: "Oh noez!",
+      confirmButtonText: "Aww yess!",
+      confirmButtonColor: "#1194a8",
+    });
   };
 
   return (
@@ -14,7 +20,9 @@ const QuestionsAlert = () => {
       <Card className="height-equal">
         <CommonCardHeader title={QuestionsAlerts} span={QuestionAlertData} />
         <CardBody className="btn-showcase">
-          <Button color="primary" className="sweet-11" onClick={displayAlert}>{QuestionsState}</Button>
+          <Button color="primary" className="sweet-11" onClick={displayAlert}>
+            {QuestionsState}
+          </Button>
         </CardBody>
       </Card>
     </Col>

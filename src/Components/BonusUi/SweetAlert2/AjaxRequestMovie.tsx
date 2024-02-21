@@ -7,20 +7,40 @@ import { AjaxData } from "@/Data/BonusUi/SweetAlert";
 
 const AjaxRequestMovie = () => {
   const displayAlert = () => {
-    SweetAlert.fire({text: 'Search for a movie. e.g. "Herry Poter".',input: "text",confirmButtonColor: "#7A70BA",})
+    SweetAlert.fire({
+      text: 'Search for a movie. e.g. "Herry Poter".',
+      input: "text",
+      confirmButtonColor: "#1194a8",
+    })
       .then((name) => {
-        if (name) return fetch(`https://itunes.apple.com/search?term=${name.value}&entity=movie`);
+        if (name)
+          return fetch(
+            `https://itunes.apple.com/search?term=${name.value}&entity=movie`
+          );
         throw null;
       })
-      .then((results) => {return results.json();})
+      .then((results) => {
+        return results.json();
+      })
       .then((json) => {
         const movie = json.results[0];
-        if (!movie) return SweetAlert.fire({ text: "No movie was found!", confirmButtonColor: "#7A70BA" });
+        if (!movie)
+          return SweetAlert.fire({
+            text: "No movie was found!",
+            confirmButtonColor: "#1194a8",
+          });
         const name = movie.trackName;
         const imageURL = movie.artworkUrl100;
-        SweetAlert.fire({title: "Top result:",imageUrl: imageURL,text: name,});
+        SweetAlert.fire({
+          title: "Top result:",
+          imageUrl: imageURL,
+          text: name,
+        });
       })
-      .catch((err) => {if (err) SweetAlert.fire("Oh noes!", "The AJAX request failed!", "error");});
+      .catch((err) => {
+        if (err)
+          SweetAlert.fire("Oh noes!", "The AJAX request failed!", "error");
+      });
   };
 
   return (
@@ -28,7 +48,9 @@ const AjaxRequestMovie = () => {
       <Card className="height-equal">
         <CommonCardHeader title={AjaxRequestMovies} span={AjaxData} />
         <CardBody className="btn-showcase">
-          <Button color="secondary" className="sweet-15" onClick={displayAlert}>{MovieMode}</Button>
+          <Button color="secondary" className="sweet-15" onClick={displayAlert}>
+            {MovieMode}
+          </Button>
         </CardBody>
       </Card>
     </Col>

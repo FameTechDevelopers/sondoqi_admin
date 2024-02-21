@@ -19,9 +19,6 @@ const UserInfo = () => {
               Welcome to the Sondoqi family! We are delighted that you have
               visited our dashboard.
             </p>
-            <Link className="btn" href={`/dashboard/default_dashboard`}>
-              {GoPremium}
-            </Link>
           </div>
         </CardBody>
       </Card>

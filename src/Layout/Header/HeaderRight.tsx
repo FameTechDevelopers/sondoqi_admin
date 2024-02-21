@@ -20,15 +20,15 @@ export const HeaderRight = () => {
       className="nav-right pull-right right-header p-0 ms-auto"
     >
       <ul className="nav-menus">
-        <SearchBox />
+        {/* <SearchBox /> */}
         <HeaderSearch />
         <MaximizeScreen />
-        <Notification />
+        {/* <Notification /> */}
         {/* <BookMark /> */}
         <DarkMode />
-        <MessageBox />
+        {/* <MessageBox /> */}
         {/* <CartData /> */}
-        {/* <Languages/> */}
+        <Languages />
         <Profile />
       </ul>
     </Col>

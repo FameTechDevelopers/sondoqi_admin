@@ -31,11 +31,6 @@ export const MenuList: MenuItem[] | undefined = [
         active: false,
         children: [
           {
-            path: "/user/add_user",
-            title: "Add New User",
-            type: "link",
-          },
-          {
             path: "/user/user_list",
             title: "Users List",
             type: "link",
@@ -51,7 +46,7 @@ export const MenuList: MenuItem[] | undefined = [
     menucontent: "Dashboards,Widgets",
     Items: [
       {
-        title: "opportunities Manag..",
+        title: "Opportunities Manag..",
         id: 7,
         icon: "home",
         type: "sub",

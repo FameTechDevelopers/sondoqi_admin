@@ -1,6 +1,6 @@
 import { ApexOptions } from "apexcharts";
 
-const primary = "#7A70BA";
+const primary = "#1194a8";
 const secondary = "#48A3D7";
 
 export const SaleChart: ApexOptions = {
@@ -20,7 +20,19 @@ export const SaleChart: ApexOptions = {
   },
   xaxis: {
     type: "datetime",
-    categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
+    categories: [
+      "2018-09-19T00:00:00",
+      "2018-09-19T01:30:00",
+      "2018-09-19T02:30:00",
+      "2018-09-19T03:30:00",
+      "2018-09-19T04:30:00",
+      "2018-09-19T05:30:00",
+      "2018-09-19T06:30:00",
+      "2018-09-19T07:30:00",
+      "2018-09-19T08:30:00",
+      "2018-09-19T09:30:00",
+      "2018-09-19T10:30:00",
+    ],
     labels: {
       show: false,
     },
@@ -85,7 +97,19 @@ export const ProjectChart: ApexOptions = {
   },
   xaxis: {
     type: "datetime",
-    categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
+    categories: [
+      "2018-09-19T00:00:00",
+      "2018-09-19T01:30:00",
+      "2018-09-19T02:30:00",
+      "2018-09-19T03:30:00",
+      "2018-09-19T04:30:00",
+      "2018-09-19T05:30:00",
+      "2018-09-19T06:30:00",
+      "2018-09-19T07:30:00",
+      "2018-09-19T08:30:00",
+      "2018-09-19T09:30:00",
+      "2018-09-19T10:30:00",
+    ],
     labels: {
       show: false,
     },
@@ -150,7 +174,19 @@ export const ProductChart: ApexOptions = {
   xaxis: {
     //   show: false,
     type: "datetime",
-    categories: ["2018-09-19T00:00:00", "2018-09-19T01:30:00", "2018-09-19T02:30:00", "2018-09-19T03:30:00", "2018-09-19T04:30:00", "2018-09-19T05:30:00", "2018-09-19T06:30:00", "2018-09-19T07:30:00", "2018-09-19T08:30:00", "2018-09-19T09:30:00", "2018-09-19T10:30:00"],
+    categories: [
+      "2018-09-19T00:00:00",
+      "2018-09-19T01:30:00",
+      "2018-09-19T02:30:00",
+      "2018-09-19T03:30:00",
+      "2018-09-19T04:30:00",
+      "2018-09-19T05:30:00",
+      "2018-09-19T06:30:00",
+      "2018-09-19T07:30:00",
+      "2018-09-19T08:30:00",
+      "2018-09-19T09:30:00",
+      "2018-09-19T10:30:00",
+    ],
     labels: {
       show: false,
     },
@@ -808,7 +844,18 @@ export const LiveProductChart: ApexOptions = {
     },
   },
   colors: [primary, secondary],
-  labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+  labels: [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+  ],
   markers: {
     size: 0,
   },
@@ -863,7 +910,19 @@ export const TurnOverChart: ApexOptions = {
     curve: "smooth",
   },
   xaxis: {
-    categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
+    categories: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+    ],
     axisBorder: {
       show: false,
     },
@@ -911,7 +970,24 @@ export const CryptoCurrencyPrice: ApexOptions = {
     curve: "smooth",
   },
   xaxis: {
-    categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Jan", "Feb", "Mar", "Apr", "May"],
+    categories: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+    ],
     tickAmount: 5,
     tickPlacement: "between",
     axisBorder: {
@@ -938,7 +1014,11 @@ export const CryptoCurrencyPrice: ApexOptions = {
   colors: [primary],
   series: [
     {
-      data: [20, 120, 15, 100, 120, 60, 150, 70, 100, 80, 105, 20, 70, 60, 10, 12, 10, 130, 60, 80, 40, 140, 110, 150, 30, 75, 20, 45, 15, 130, 10, 30, 15, 110, 65, 130, 0],
+      data: [
+        20, 120, 15, 100, 120, 60, 150, 70, 100, 80, 105, 20, 70, 60, 10, 12,
+        10, 130, 60, 80, 40, 140, 110, 150, 30, 75, 20, 45, 15, 130, 10, 30, 15,
+        110, 65, 130, 0,
+      ],
     },
   ],
   tooltip: {
@@ -958,12 +1038,11 @@ export const CryptoCurrencyPrice: ApexOptions = {
   ],
 };
 
-export const CryptoAnnotationChart:ApexOptions = {
+export const CryptoAnnotationChart: ApexOptions = {
   series: [
     {
-      data:[ 8107, 8300, 8260, 8400, 8350, 8500, 8350]
-    }
-   
+      data: [8107, 8300, 8260, 8400, 8350, 8500, 8350],
+    },
   ],
   chart: {
     height: 400,
@@ -1048,7 +1127,7 @@ export const CryptoAnnotationChart:ApexOptions = {
     },
   },
   colors: [secondary],
-  labels:  [
+  labels: [
     "13 Nov 2017",
     "14 Nov 2017",
     "15 Nov 2017",
@@ -1060,19 +1139,21 @@ export const CryptoAnnotationChart:ApexOptions = {
   xaxis: {
     type: "datetime",
   },
-  responsive: [{
-    breakpoint: 576,
-    options: {
-      title: {
-        style: {
-          fontSize: "16px",
+  responsive: [
+    {
+      breakpoint: 576,
+      options: {
+        title: {
+          style: {
+            fontSize: "16px",
+          },
         },
       },
     },
-  }]
+  ],
 };
 
-export var StockMarketChart:ApexOptions = {
+export var StockMarketChart: ApexOptions = {
   series: [
     {
       name: "line",
@@ -1346,25 +1427,25 @@ export var StockMarketChart:ApexOptions = {
   plotOptions: {
     candlestick: {
       colors: {
-        upward: '#FF474A',
-        downward: '#6540D1'
-      }
-    }
+        upward: "#FF474A",
+        downward: "#6540D1",
+      },
+    },
   },
   legend: {
     show: false,
   },
   fill: {
-    type: 'gradient',
+    type: "gradient",
     gradient: {
-      shade: 'dark',
-      type: 'vertical',
+      shade: "dark",
+      type: "vertical",
       shadeIntensity: 0.2,
       inverseColors: true,
       opacityFrom: 1,
       opacityTo: 1,
       stops: [0, 100],
-    }
+    },
   },
   chart: {
     height: 450,
@@ -1374,7 +1455,7 @@ export var StockMarketChart:ApexOptions = {
     },
   },
   stroke: {
-    curve: 'smooth',
+    curve: "smooth",
     width: [1, 1],
   },
   tooltip: {
@@ -1395,20 +1476,20 @@ export var StockMarketChart:ApexOptions = {
   xaxis: {
     type: "datetime",
     axisBorder: {
-      show: false
+      show: false,
     },
     axisTicks: {
-      show: false
-    }
+      show: false,
+    },
   },
   grid: {
     strokeDashArray: 3,
-    position: 'back',
+    position: "back",
     row: {
-      opacity: 0.5
+      opacity: 0.5,
     },
     column: {
-      opacity: 0.5
+      opacity: 0.5,
     },
   },
   responsive: [
@@ -1417,14 +1498,18 @@ export var StockMarketChart:ApexOptions = {
       options: {
         chart: {
           height: 250,
-        }
-      }
-    }
-  ]
+        },
+      },
+    },
+  ],
 };
 
 var trigoStrength = 3;
-function generateMinuteWiseTimeSeries(baseval:number, count:number, yrange:{max:number,min:number}) {
+function generateMinuteWiseTimeSeries(
+  baseval: number,
+  count: number,
+  yrange: { max: number; min: number }
+) {
   var i = 0;
   var series = [];
   while (i < count) {
@@ -1442,10 +1527,10 @@ function generateMinuteWiseTimeSeries(baseval:number, count:number, yrange:{max:
   return series;
 }
 
-export const FinanceChart:ApexOptions = {
+export const FinanceChart: ApexOptions = {
   chart: {
     height: 350,
-    type: 'line',
+    type: "line",
     toolbar: {
       show: false,
     },
@@ -1462,7 +1547,7 @@ export const FinanceChart:ApexOptions = {
   series: [
     {
       name: "Load Average",
-      type: 'column',
+      type: "column",
       data: generateMinuteWiseTimeSeries(
         new Date("12/12/2016 00:20:00").getTime(),
         12,
@@ -1473,10 +1558,10 @@ export const FinanceChart:ApexOptions = {
       ),
     },
     {
-      name: 'Social Media',
-      type: 'line',
-      data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16]
-    }
+      name: "Social Media",
+      type: "line",
+      data: [23, 42, 35, 27, 43, 22, 17, 31, 22, 22, 12, 16],
+    },
   ],
   title: {
     text: "Average",
@@ -1518,30 +1603,31 @@ export const FinanceChart:ApexOptions = {
   legend: {
     show: true,
   },
-  responsive: [{
-    breakpoint: 1366,
-    options: {
-      subtitle: {
-        style: {
-          fontSize: "18px",
+  responsive: [
+    {
+      breakpoint: 1366,
+      options: {
+        subtitle: {
+          style: {
+            fontSize: "18px",
+          },
         },
       },
     },
-  },
-  {
-    breakpoint: 992,
-    options: {
-      subtitle: {
-        style: {
-          fontSize: "16px",
+    {
+      breakpoint: 992,
+      options: {
+        subtitle: {
+          style: {
+            fontSize: "16px",
+          },
         },
       },
     },
-  }
-  ]
+  ],
 };
 
-export const OrderStatusChart:ApexOptions = {
+export const OrderStatusChart: ApexOptions = {
   chart: {
     height: 350,
     type: "line",
@@ -1570,7 +1656,6 @@ export const OrderStatusChart:ApexOptions = {
                   data: newData2,
                 },
               ],
-              
             },
             false,
             false
@@ -1601,7 +1686,7 @@ export const OrderStatusChart:ApexOptions = {
   fill: {
     opacity: 0.9,
   },
-  colors: [primary, secondary ],
+  colors: [primary, secondary],
   markers: {
     size: 0,
     hover: {
@@ -1657,30 +1742,31 @@ export const OrderStatusChart:ApexOptions = {
     offsetY: -33,
     offsetX: 60,
   },
-  responsive: [{
-    breakpoint: 1366,
-    options: {
-      title: {
-        style: {
-          fontSize: "18px",
+  responsive: [
+    {
+      breakpoint: 1366,
+      options: {
+        title: {
+          style: {
+            fontSize: "18px",
+          },
         },
       },
     },
-  },
-  {
-    breakpoint: 992,
-    options: {
-      title: {
-        style: {
-          fontSize: "16px",
+    {
+      breakpoint: 992,
+      options: {
+        title: {
+          style: {
+            fontSize: "16px",
+          },
         },
       },
     },
-  }
-  ]
+  ],
 };
 
-export const MonthlySalesChart:ApexOptions = {
+export const MonthlySalesChart: ApexOptions = {
   fill: {
     type: "gradient",
     gradient: {
@@ -1693,7 +1779,7 @@ export const MonthlySalesChart:ApexOptions = {
       stops: [0, 100],
     },
   },
-  colors: [primary,secondary],
+  colors: [primary, secondary],
   chart: {
     height: 300,
     type: "radar",
@@ -1726,7 +1812,11 @@ export const MonthlySalesChart:ApexOptions = {
   labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
 };
 
-function generateData(baseval:number, count:number, yrange:{max:number, min:number}) {
+function generateData(
+  baseval: number,
+  count: number,
+  yrange: { max: number; min: number }
+) {
   var i = 0;
   var series = [];
   while (i < count) {
@@ -1742,7 +1832,7 @@ function generateData(baseval:number, count:number, yrange:{max:number, min:numb
   return series;
 }
 
-export const UsesChart:ApexOptions = {
+export const UsesChart: ApexOptions = {
   chart: {
     toolbar: {
       show: false,
@@ -1795,12 +1885,7 @@ export const UsesChart:ApexOptions = {
       stops: [0, 100],
     },
   },
-  colors: [
-    primary,
-    secondary,
-    "#51bb25",
-    "#544fff",
-  ],
+  colors: [primary, secondary, "#51bb25", "#544fff"],
   title: {
     text: "Simple Bubble Chart",
   },
