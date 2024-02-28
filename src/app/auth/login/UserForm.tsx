@@ -48,13 +48,10 @@ export const UserForm = () => {
 
       Cookies.set("m_token", JSON.stringify(true));
 
-      router.push(`/en/dashboard/default_dashboard`);
-
+      window.location.reload();
       if (response?.data?.token) {
         toast.success("Successfully Loggedin");
       }
-
-      router.push("/");
     } catch (error: any) {
       toast.error(
         error?.response?.data?.message || "Please Enter Valid Email Or Password"

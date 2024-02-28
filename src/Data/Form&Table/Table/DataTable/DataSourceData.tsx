@@ -2,9 +2,7 @@ import CenteredModal from "@/Components/UiKits/Modal/CenteredModal";
 import { Href } from "@/Constant";
 import {
   AjaxSourcedColumnsInterface,
-  CarImport,
   CustomCellInterFaces,
-  Posts,
   ScrollImageType,
   User,
 } from "@/Types/TableType";
@@ -1337,35 +1335,6 @@ const CustomBadge: React.FC<CustomCellInterFaces> = ({ position, color }) => {
   );
 };
 
-export const HtmlColumn: TableColumn<User>[] = [
-  {
-    name: "Name",
-    selector: (row) => row.name,
-    sortable: true,
-  },
-  {
-    name: "Phone",
-    selector: (row) => row.phone,
-    sortable: true,
-  },
-
-  {
-    name: "Role",
-    cell: (row) => <CustomBadge color={row.color} position={row.role} />,
-    sortable: true,
-  },
-  {
-    name: "Email",
-    selector: (row) => row.email,
-    sortable: true,
-  },
-  {
-    name: "Action",
-    cell: (row) => <ActionDataSource id={row.id} />,
-    sortable: true,
-  },
-];
-
 const ScrollImage: React.FC<ScrollImageType> = ({ image, title }) => {
   return (
     <>
@@ -1374,139 +1343,6 @@ const ScrollImage: React.FC<ScrollImageType> = ({ image, title }) => {
     </>
   );
 };
-
-export const UserColumn: TableColumn<User>[] = [
-  {
-    name: "Name",
-    cell: (row) => (
-      <ScrollImage
-        image={
-          "https://cdn.pixabay.com/photo/2017/01/30/23/52/female-2022387_1280.png"
-        }
-        title={row.name}
-      />
-    ),
-  },
-  {
-    name: "Name",
-    selector: (row) => row.name,
-    sortable: true,
-  },
-  {
-    name: "Phone",
-    selector: (row) => row.phone,
-    sortable: true,
-  },
-
-  {
-    name: "Role",
-    cell: (row) => <CustomBadge color={row.color} position={row.role} />,
-    sortable: true,
-  },
-  {
-    name: "Email",
-    selector: (row) => row.email,
-    sortable: true,
-  },
-  {
-    name: "CNIC",
-    selector: (row) => row.cnic,
-    sortable: true,
-  },
-  {
-    name: "Action",
-    cell: (row) => <ActionDataSource id={row.id} />,
-    sortable: true,
-  },
-];
-
-export const PostsColumn: TableColumn<Posts>[] = [
-  {
-    name: "S.no",
-    selector: (row) => row.postId,
-    sortable: true,
-  },
-  {
-    name: "Title",
-    selector: (row) => row.title,
-    sortable: true,
-  },
-
-  {
-    name: "Vehicle Condition",
-    selector: (row) => row.vehicleCondition,
-    sortable: true,
-  },
-  {
-    name: "Price",
-    selector: (row) => row.price,
-    sortable: true,
-  },
-  {
-    name: "City Name",
-    selector: (row) => row.cityName,
-    sortable: true,
-  },
-
-  {
-    name: "Make",
-    selector: (row) => row.makeName,
-    sortable: true,
-  },
-
-  {
-    name: "Model",
-    selector: (row) => row.modelName,
-    sortable: true,
-  },
-
-  {
-    name: "Year",
-    selector: (row) => row.yearName,
-    sortable: true,
-  },
-
-  {
-    name: "Action",
-    cell: (row) => <ActionDataSourcePosts id={row.postId} />,
-    sortable: true,
-  },
-];
-
-export const CarImportColumn: TableColumn<CarImport>[] = [
-  {
-    name: "S.no",
-    selector: (row) => row.id,
-    sortable: true,
-  },
-  {
-    name: "Make",
-    selector: (row) => row.make,
-    sortable: true,
-  },
-
-  {
-    name: "Model",
-    selector: (row) => row.model_name,
-    sortable: true,
-  },
-
-  {
-    name: "Year",
-    selector: (row) => row.year,
-    sortable: true,
-  },
-  {
-    name: "City",
-    selector: (row) => row.city,
-    sortable: true,
-  },
-  {
-    name: "Action",
-    cell: (row) => <ActionDataSource id={row.id} />,
-    sortable: true,
-  },
-];
 
 export const AjaxSourceData = [
   {

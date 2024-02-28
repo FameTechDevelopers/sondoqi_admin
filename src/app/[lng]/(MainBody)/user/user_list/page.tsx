@@ -16,7 +16,7 @@ import SinglePost from "@/Components/SinglePost/SinglePost";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { useAppSelector } from "@/Redux/Hooks";
-import NewCarDetials from "@/Components/SinglePost/NewCar";
+import NewCarDetials from "@/Components/SinglePost/SingleOppertunity";
 
 const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
