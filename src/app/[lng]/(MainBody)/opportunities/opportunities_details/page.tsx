@@ -1,15 +1,15 @@
 "use client";
 import React, { useEffect } from "react";
 import { Card, CardBody, Col, Container, Row } from "reactstrap";
-import ImageSlider from "./ImageSlider";
 import { useAppDispatch } from "@/Redux/Hooks";
 import { fetchProductApiData } from "@/Redux/Reducers/ProductSlice";
-import ProductDetails from "./ProductDetails";
-import ClothsDetails from "./ClothsDetails";
+import ProductDetails from "../../user/userdetails/UserDetails";
+import ClothsDetails from "./PaymentsDetails";
 import { useQuery } from "react-query";
 import axios from "axios";
 import Loading from "@/app/loading";
 import { ImagePath } from "@/Constant";
+import PackageDetails from "./PackageInfo";
 
 const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
@@ -113,7 +113,7 @@ const ProductPageContainer = () => {
                 </CardBody>
               </Card>
             </Col>
-            <ProductDetails data={packageDetail} />
+            <PackageDetails data={packageDetail} />
           </Row>
           <Card>
             <Row className="product-page-main">
