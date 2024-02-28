@@ -31,8 +31,13 @@ export const MenuList: MenuItem[] | undefined = [
         active: false,
         children: [
           {
-            path: "/user/user_list",
-            title: "Users List",
+            path: "/user/active_users_list",
+            title: "Active Users List",
+            type: "link",
+          },
+          {
+            path: "/user/deleted_users_list",
+            title: "Deleted Users List",
             type: "link",
           },
         ],
