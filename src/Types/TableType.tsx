@@ -182,11 +182,18 @@ export interface Payment {
   contribution_no: number;
   transaction_amount: number;
   payment_date: number;
+  transectiontype_name: string;
+
   _id: string;
   user: {
     user_name: string;
     user_email: string;
     user_phone: string;
+  };
+  package: {
+    package_name: string;
+    package_box_type: string;
+    package_risk_level: string;
   };
 }
 
@@ -204,7 +211,7 @@ export interface User {
   user_email: string;
   user_color: string;
   user_badge: string;
-  id: string;
+  _id: string;
 }
 
 export interface AjaxSourcedColumnsInterface {
