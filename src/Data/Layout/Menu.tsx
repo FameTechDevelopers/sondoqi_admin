@@ -59,8 +59,18 @@ export const MenuList: MenuItem[] | undefined = [
             type: "link",
           },
           {
-            path: "/opportunities/opportunities_list",
-            title: "Opportunities List",
+            path: "/opportunities/open_opportunities_list",
+            title: "Open Opportunities",
+            type: "link",
+          },
+          {
+            path: "/opportunities/closed_opportunities_list",
+            title: "Closed Opportunities",
+            type: "link",
+          },
+          {
+            path: "/opportunities/deleted_opportunities_list",
+            title: "Deleted Opportunities",
             type: "link",
           },
         ],
