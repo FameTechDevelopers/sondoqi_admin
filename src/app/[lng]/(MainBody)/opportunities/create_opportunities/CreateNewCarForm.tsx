@@ -1,14 +1,5 @@
 "use client";
 import { Col, FormGroup, Label, Row, Input, Button } from "reactstrap";
-import {
-  BootSpaceL,
-  GroundClearenceMM,
-  KerbWeightKG,
-  NoOfDoors,
-  OverallLengthMM,
-  OverallWidthMM,
-  WheelBaseMM,
-} from "@/Constant";
 import { useQuery } from "react-query";
 import axios from "axios";
 import { FormEvent, useEffect, useState } from "react";
@@ -31,6 +22,9 @@ const CreateNewOpportunity = () => {
   const [name, setName] = useState("");
   const [target, setTarget] = useState("");
   const [remaining, setRemaining] = useState("");
+  const [description, setDescription] = useState("");
+  const [boxType, setBoxType] = useState("");
+  const [riskLevel, setRiskLevel] = useState("");
   const [unit, setUnit] = useState("");
 
   const handleSubmit = async (e: FormEvent) => {
@@ -43,6 +37,9 @@ const CreateNewOpportunity = () => {
         package_target: target,
         package_remaining: remaining,
         package_unit: unit,
+        package_description: description,
+        package_risk_level: riskLevel,
+        package_box_type: boxType,
       };
       const response = await axios.post(
         `${BASE_URL}/package/createPackage
@@ -57,7 +54,7 @@ const CreateNewOpportunity = () => {
       );
 
       toast.success(response?.data?.message);
-      // router.push(`/${i18LangStatus}/new_car/carpostlist`);
+      router.push(`/${i18LangStatus}/opportunities/open_opportunities_list`);
     } catch (error) {
       console.log(error);
     } finally {
@@ -130,6 +127,64 @@ const CreateNewOpportunity = () => {
                   placeholder="Opportunity Unit"
                   onChange={(e: any) => setUnit(e.target.value)}
                   value={unit}
+                />
+              </FormGroup>
+            </Col>
+
+            <Col lg="3" md="6">
+              <FormGroup>
+                <Label check>Opportunity Box Type</Label>
+                <Input
+                  required
+                  name="package_box_type"
+                  placeholder="Box Type"
+                  onChange={(e: any) => setBoxType(e.target.value)}
+                  value={boxType}
+                  type="select"
+                  className="form-control form-select"
+                >
+                  <option value="" disabled>
+                    Select Type
+                  </option>
+
+                  <option value={"يفتح"}>يفتح</option>
+                  <option value={"مغلق"}>مغلق</option>
+                </Input>
+              </FormGroup>
+            </Col>
+            <Col lg="3" md="6">
+              <FormGroup>
+                <Label check>Opportunity Risk Level</Label>
+                <Input
+                  required
+                  name="package_risk_level"
+                  placeholder="Risk Level"
+                  onChange={(e: any) => setRiskLevel(e.target.value)}
+                  value={riskLevel}
+                  type="select"
+                  className="form-control form-select"
+                >
+                  <option value="" disabled>
+                    Select Risk Level
+                  </option>
+
+                  <option value={"قليل"}>قليل</option>
+                  <option value={"متوازن"}>متوازن</option>
+                  <option value={"عالي"}>عالي</option>
+                </Input>
+              </FormGroup>
+            </Col>
+            <Col lg="12" md="12">
+              <FormGroup>
+                <Label check>Opportunity Description</Label>
+                <textarea
+                  required
+                  rows={5}
+                  name="package_description"
+                  className="form-control"
+                  placeholder="Description"
+                  onChange={(e: any) => setDescription(e.target.value)}
+                  value={description}
                 />
               </FormGroup>
             </Col>
