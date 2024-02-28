@@ -13,8 +13,8 @@ import { CustomCellInterFaces, Opportunity, User } from "@/Types/TableType";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { useAppSelector } from "@/Redux/Hooks";
-import NewCarDetials from "@/Components/SinglePost/SingleOppertunity";
-import SingleOppertunity from "@/Components/SinglePost/SingleOppertunity";
+import NewCarDetials from "@/Components/DetailModal/SingleOppertunity";
+import SingleOppertunity from "@/Components/DetailModal/SingleOppertunity";
 
 const BASE_URL = `${process.env.NEXT_PUBLIC_BASE_URL}`;
 
