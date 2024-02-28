@@ -9,5 +9,9 @@
   "Users List": "قائمة المستخدمين",
   "Opportunities Manag..":"إدارة الفرص",
   "Add New Opportunity" : "أضف فرصة جديدة",
-  "Opportunities List": "قائمة الفرص"
+  "Opportunities List": "قائمة الفرص",
+  "Closed Opportunities": "الفرص المغلقة",
+  "Open Opportunities": "الفرص المفتوحة",
+  "Deleted Opportunities": "الفرص المحذوفة"
+
 }
