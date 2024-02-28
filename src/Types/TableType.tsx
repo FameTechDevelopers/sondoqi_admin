@@ -165,11 +165,29 @@ export interface CustomCellInterFaces {
 
 export interface Opportunity {
   package_name: string;
+  package_risk_level: string;
+  package_description: string;
   package_remaining: number;
   package_target: number;
   package_unit: number;
   contribution_no: number;
   _id: string;
+}
+export interface Payment {
+  user_id: string;
+  paymenttype_name: string;
+  package_remaining: number;
+  package_target: number;
+  package_unit: number;
+  contribution_no: number;
+  transaction_amount: number;
+  payment_date: number;
+  _id: string;
+  user: {
+    user_name: string;
+    user_email: string;
+    user_phone: string;
+  };
 }
 
 export interface User {
